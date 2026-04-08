@@ -4,40 +4,51 @@ title: "The Watershed Report"
 description: "Field notes, best practices, and environmental updates from the Legacy Waters team."
 ---
 
-<section class="placeholder-section">
+<!-- Blog Hero -->
+<section class="blog-hero">
   <div class="container">
     <span class="section-label">Our Blog</span>
     <h1>The <span style="color: var(--teal);">Watershed</span> Report</h1>
     <div class="accent-bar accent-bar-center" style="background: var(--ocean);"></div>
-    <p>Field notes, best practices, and environmental updates from the Legacy Waters team.</p>
+    <p class="blog-hero-subtitle">Field notes, best practices, and environmental updates from the Legacy Waters team.</p>
   </div>
 </section>
 
+<!-- Blog Content -->
 <section class="fade-in" style="padding: 80px 0;">
   <div class="container">
-    <div class="blog-grid">
-      <a href="#" class="blog-card">
-        <img src="{{ '/images/blog-wetland.webp' | relative_url }}" alt="Wetland Delineation" class="blog-card-img" loading="lazy">
-        <div class="blog-card-body">
-          <h3 class="blog-card-title">What Is a Wetland Delineation and Why Does Your Property Need One?</h3>
-          <p class="blog-card-excerpt">Understanding wetland boundaries is critical before starting any development or land management project.</p>
-        </div>
-      </a>
-      <a href="#" class="blog-card">
-        <img src="{{ '/images/blog-jurisdictional.webp' | relative_url }}" alt="Jurisdictional Wetlands" class="blog-card-img" loading="lazy">
-        <div class="blog-card-body">
-          <h3 class="blog-card-title">5 Signs Your Property May Have Jurisdictional Wetlands</h3>
-          <p class="blog-card-excerpt">Before you start construction, here are the key indicators that your land may contain protected wetlands.</p>
-        </div>
-      </a>
-      <a href="#" class="blog-card">
-        <img src="{{ '/images/dirty-pond.webp' | relative_url }}" alt="Dirty Pond" class="blog-card-img" loading="lazy">
-        <div class="blog-card-body">
-          <h3 class="blog-card-title">5 Major Signs It's Time to Clean Your Pond</h3>
-          <p class="blog-card-excerpt">Murky water, bad odors, and algae blooms are clear signals that your pond needs professional attention.</p>
-        </div>
-      </a>
+
+    <!-- Search & Count -->
+    <div class="blog-toolbar">
+      <div class="blog-search-wrap">
+        <input type="text" id="blog-search" class="blog-search" placeholder="Search articles..." aria-label="Search articles">
+      </div>
+      <p class="blog-post-count"><span id="post-count">{{ site.posts | size }}</span> {% if site.posts.size == 1 %}article{% else %}articles{% endif %} published</p>
     </div>
+
+    <!-- Card Grid -->
+    <div class="blog-grid" id="blog-grid">
+      {% for post in site.posts %}
+      <a href="{{ post.url | relative_url }}" class="blog-card" data-title="{{ post.title | downcase }}" data-excerpt="{{ post.excerpt | strip_html | downcase }}">
+        <img src="{{ post.image | default: '/images/hero-fallback.webp' | relative_url }}" alt="{{ post.title }}" class="blog-card-img" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <span class="blog-card-badge">{{ post.category }}</span>
+            <span class="blog-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          </div>
+          <h3 class="blog-card-title">{{ post.title }}</h3>
+          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <div class="blog-card-footer">
+            <span class="blog-card-author">{{ post.author | default: "Legacy Waters" }}</span>
+            <span class="blog-card-read-more">Read More &rarr;</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <p class="blog-no-results" id="blog-no-results" style="display:none;">No articles match your search.</p>
+
   </div>
 </section>
 
@@ -49,3 +60,27 @@ description: "Field notes, best practices, and environmental updates from the Le
     <a href="{{ site.data.site.phone_link }}" class="btn-primary btn-call">Call {{ site.data.site.phone }}</a>
   </div>
 </section>
+
+<script>
+(function() {
+  var search = document.getElementById('blog-search');
+  var grid = document.getElementById('blog-grid');
+  var cards = grid.querySelectorAll('.blog-card');
+  var countEl = document.getElementById('post-count');
+  var noResults = document.getElementById('blog-no-results');
+
+  search.addEventListener('input', function() {
+    var q = this.value.toLowerCase().trim();
+    var visible = 0;
+    cards.forEach(function(card) {
+      var title = card.getAttribute('data-title') || '';
+      var excerpt = card.getAttribute('data-excerpt') || '';
+      var match = !q || title.indexOf(q) !== -1 || excerpt.indexOf(q) !== -1;
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    countEl.textContent = visible;
+    noResults.style.display = visible === 0 ? '' : 'none';
+  });
+})();
+</script>
