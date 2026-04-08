@@ -132,8 +132,8 @@ Custom domain migration:
 - [ ] Polish all sections with real content from current WordPress site
 
 ### Phase 3 — Service Subpages
-- [ ] Build 8 service pages using `_layouts/service.html`
-- [ ] Migrate all service content, FAQs, and images from current site
+- [x] ~~Build 8 service pages using `_layouts/service.html`~~ — Done
+- [x] ~~Migrate all service content, FAQs, and images~~ — Done (sediment, vegetation, invasive, waterway, trash, shoreline, bush hog, flail)
 
 ### Phase 4 — Blog & About
 - [ ] Migrate 3 blog posts with real content
