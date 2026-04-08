@@ -170,20 +170,31 @@
     });
   }
 
-  /* --- Video Hero: Play/Pause on Visibility --- */
+  /* --- Video Hero: Desktop only, skip download on mobile --- */
   var heroVideo = document.querySelector('.hero-video');
-  if (heroVideo && 'IntersectionObserver' in window) {
-    var videoObserver = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          heroVideo.play().catch(function () {});
-        } else {
-          heroVideo.pause();
-        }
-      });
-    }, { threshold: 0.25 });
+  if (heroVideo && window.innerWidth > 900) {
+    // Only load the video source on desktop
+    var videoSrc = heroVideo.getAttribute('data-src');
+    if (videoSrc) {
+      var source = document.createElement('source');
+      source.src = videoSrc;
+      source.type = 'video/mp4';
+      heroVideo.appendChild(source);
+      heroVideo.load();
+    }
 
-    videoObserver.observe(heroVideo);
+    if ('IntersectionObserver' in window) {
+      var videoObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            heroVideo.play().catch(function () {});
+          } else {
+            heroVideo.pause();
+          }
+        });
+      }, { threshold: 0.25 });
+      videoObserver.observe(heroVideo);
+    }
   }
 
 })();
