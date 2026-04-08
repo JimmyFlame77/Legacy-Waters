@@ -79,10 +79,16 @@
           fadeObserver.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
     fadeEls.forEach(function (el) {
-      fadeObserver.observe(el);
+      // If element is already in viewport on load, reveal immediately
+      var rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('visible');
+      } else {
+        fadeObserver.observe(el);
+      }
     });
   }
 
