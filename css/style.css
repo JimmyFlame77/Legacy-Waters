@@ -1005,7 +1005,10 @@ section { padding: 80px 0; }
 
   .hero { min-height: 85vh; }
   .hero-video-wrap { display: none; }
-  .hero-fallback { display: block; }
+  .hero-fallback {
+    display: block;
+    background-image: url('../images/hero-fallback-mobile.webp') !important;
+  }
 
   .service-hero { padding: 120px 0 56px; }
   .post-hero { padding: 120px 0 48px; }
