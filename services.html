@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Our Services"
+description: "Professional hydraulic dredging, aquatic vegetation harvesting, waterway cleaning, and land maintenance services in Maryland."
+---
+
+<section class="placeholder-section">
+  <div class="container">
+    <span class="section-label">What We Do</span>
+    <h1>Our Services</h1>
+    <div class="accent-bar accent-bar-center" style="background: var(--ocean);"></div>
+    <p>Professional waterway restoration and land maintenance across Maryland.</p>
+  </div>
+</section>
+
+<section class="fade-in" style="padding: 80px 0;">
+  <div class="container" style="text-align: center;">
+    <div class="services-grid">
+      {% for service in site.data.services %}
+      <div class="service-card">
+        <img src="{{ service.image | relative_url }}" alt="{{ service.title }}" class="service-card-img" loading="lazy">
+        <div class="service-card-body">
+          <div class="service-card-icon">{{ service.icon }}</div>
+          <h3 class="service-card-title">{{ service.title }}</h3>
+          <p class="service-card-desc">{{ service.short_description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CTA Band -->
+<section class="cta-band">
+  <div class="container cta-band-inner">
+    <h2>Ready to Restore Your Waterway?</h2>
+    <p>Contact Legacy Waters today for a free consultation.</p>
+    <a href="{{ site.data.site.phone_link }}" class="btn-primary btn-call">Call {{ site.data.site.phone }}</a>
+  </div>
+</section>

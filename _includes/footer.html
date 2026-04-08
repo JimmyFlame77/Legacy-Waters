@@ -1,0 +1,33 @@
+<div class="wave-divider">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="#0A1628"/>
+  </svg>
+</div>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col footer-brand">
+      <img src="{{ '/images/logo.webp' | relative_url }}" alt="{{ site.data.site.company_name }}" class="footer-logo">
+      <p class="footer-tagline">{{ site.data.site.tagline }}</p>
+    </div>
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer-col footer-contact">
+      <h4 class="footer-heading">Contact</h4>
+      <p><a href="{{ site.data.site.phone_link }}">{{ site.data.site.phone }}</a></p>
+      <p>{{ site.data.site.location }}</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="footer-year"></span> {{ site.data.site.company_name }}.</p>
+      <p class="powered-by">Supercharged by <a href="{{ site.data.site.powered_by_url }}" target="_blank" rel="noopener">{{ site.data.site.powered_by }}</a></p>
+    </div>
+  </div>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</footer>

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<!-- Post Hero -->
+<section class="post-hero" {% if page.image %}style="background-image: linear-gradient(rgba(10,22,40,0.78), rgba(10,22,40,0.78)), url('{{ page.image | relative_url }}');"{% endif %}>
+  <div class="container">
+    <span class="section-label">{{ page.category | default: "The Watershed Report" }}</span>
+    <h1 class="post-hero-title">{{ page.title }}</h1>
+    <div class="accent-bar"></div>
+    {% if page.date %}<p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>{% endif %}
+  </div>
+</section>
+
+<!-- Post Content -->
+<article class="post-content">
+  <div class="container container-narrow">
+    {{ content }}
+  </div>
+</article>
+
+<!-- Prev / Next -->
+<nav class="post-nav">
+  <div class="container post-nav-inner">
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">&larr; {{ page.previous.title }}</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">{{ page.next.title }} &rarr;</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+  </div>
+</nav>
+
+<!-- CTA Band -->
+<section class="cta-band">
+  <div class="container cta-band-inner">
+    <h2>Questions About Your Waterway?</h2>
+    <p>Our team is here to help. Reach out for a free consultation.</p>
+    <a href="{{ site.data.site.phone_link }}" class="btn-primary btn-call">Call {{ site.data.site.phone }}</a>
+  </div>
+</section>

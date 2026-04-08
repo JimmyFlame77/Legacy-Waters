@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+<!-- Service Hero -->
+<section class="service-hero" style="background-image: linear-gradient(rgba(10,22,40,0.82), rgba(10,22,40,0.82)), url('{{ page.hero_image | relative_url }}');">
+  <div class="container">
+    <span class="section-label">{{ page.label }}</span>
+    <h1 class="service-hero-title">{{ page.title }}</h1>
+    <div class="accent-bar"></div>
+  </div>
+</section>
+
+<!-- Intro Section -->
+{% if page.intro %}
+<section class="service-section fade-in">
+  <div class="container service-row">
+    {% if page.intro.image %}
+    <div class="service-col service-img">
+      <img src="{{ page.intro.image | relative_url }}" alt="{{ page.intro.image_alt | default: page.title }}" loading="lazy">
+    </div>
+    {% endif %}
+    <div class="service-col service-text">
+      <h2>{{ page.intro.heading }}</h2>
+      <div class="accent-bar"></div>
+      {{ page.intro.text | markdownify }}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Middle Section (reversed) -->
+{% if page.middle %}
+<section class="service-section service-section-alt fade-in">
+  <div class="container service-row service-row-reverse">
+    {% if page.middle.image %}
+    <div class="service-col service-img">
+      <img src="{{ page.middle.image | relative_url }}" alt="{{ page.middle.image_alt | default: page.title }}" loading="lazy">
+    </div>
+    {% endif %}
+    <div class="service-col service-text">
+      <h2>{{ page.middle.heading }}</h2>
+      <div class="accent-bar"></div>
+      {{ page.middle.text | markdownify }}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Benefits Section -->
+{% if page.benefits %}
+<section class="service-section fade-in">
+  <div class="container service-row">
+    <div class="service-col service-text">
+      <h2>{{ page.benefits.heading }}</h2>
+      <div class="accent-bar"></div>
+      {{ page.benefits.text | markdownify }}
+    </div>
+    {% if page.benefits.image %}
+    <div class="service-col service-img">
+      <img src="{{ page.benefits.image | relative_url }}" alt="{{ page.benefits.image_alt | default: page.title }}" loading="lazy">
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<!-- FAQ Accordion -->
+{% if page.faqs %}
+<section class="faq-section fade-in">
+  <div class="container">
+    <span class="section-label">Common Questions</span>
+    <h2 class="section-heading">Frequently Asked Questions</h2>
+    <div class="accent-bar accent-bar-center"></div>
+    <div class="faq-list">
+      {% for faq in page.faqs %}
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          {{ faq.question }}
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          {{ faq.answer | markdownify }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- CTA Band -->
+<section class="cta-band">
+  <div class="container cta-band-inner">
+    <h2>Ready to Restore Your Waterway?</h2>
+    <p>Contact Legacy Waters today for a free consultation.</p>
+    <a href="{{ site.data.site.phone_link }}" class="btn-primary btn-call">Call {{ site.data.site.phone }}</a>
+  </div>
+</section>

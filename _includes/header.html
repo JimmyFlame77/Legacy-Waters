@@ -1,0 +1,29 @@
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="{{ '/' | relative_url }}" class="logo-link">
+      <img src="{{ '/images/logo.webp' | relative_url }}" alt="{{ site.data.site.company_name }}" class="logo">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <ul class="nav-list">
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+          {% if page.url == '/' or page.url == '/index.html' %}
+          <a href="{{ item.index_url | relative_url }}" class="nav-link">{{ item.label }}</a>
+          {% else %}
+          <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.label }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+        <li class="nav-item nav-cta-mobile">
+          <a href="{{ site.data.site.phone_link }}" class="btn-call">Call (443) 927-4337</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="{{ site.data.site.phone_link }}" class="btn-call header-cta-desktop">Call Now</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>

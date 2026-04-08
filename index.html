@@ -1,0 +1,103 @@
+---
+layout: default
+title: "Professional Waterway Restoration in Maryland"
+description: "Legacy Waters Environmental Services provides hydraulic dredging, aquatic vegetation harvesting, and waterway restoration in Maryland. Call (443) 927-4337."
+---
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-video-wrap">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="{{ '/assets/hero-video.mp4' | relative_url }}" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-fallback" style="background-image: url('{{ '/images/hero-fallback.webp' | relative_url }}');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Legacy Waters Environmental Services</h1>
+    <p class="hero-subtitle">{{ site.data.site.tagline }}</p>
+    <a href="{{ site.data.site.phone_link }}" class="btn-primary btn-call">Call Now</a>
+  </div>
+</section>
+
+<!-- Intro Section -->
+<section class="section-alt fade-in" style="padding: 80px 0;">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-heading">Restoring Balance Below the Surface</h2>
+        <div class="accent-bar"></div>
+        <p>Legacy Waters restores the health and longevity of ponds, lakes, and waterways by removing excess sediment and invasive aquatic vegetation. Our hydraulic dredging and vegetation harvesting solutions are designed to revive water quality and protect the ecosystems that depend on it.</p>
+        <p>Our work breaks that cycle — restoring depth, improving clarity, and helping your waterway thrive for years to come.</p>
+      </div>
+      <div>
+        <img src="{{ '/images/dredging-04.webp' | relative_url }}" alt="Legacy Waters hydraulic dredging operations" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Grid -->
+<section class="fade-in" style="padding: 80px 0;">
+  <div class="container" style="text-align: center;">
+    <span class="section-label">What We Do</span>
+    <h2 class="section-heading">Our Services</h2>
+    <p class="section-subtitle section-subtitle-center">Professional waterway restoration and land maintenance services across Maryland.</p>
+    <div class="accent-bar accent-bar-center"></div>
+    <div class="services-grid">
+      {% for service in site.data.services %}
+      <div class="service-card">
+        <img src="{{ service.image | relative_url }}" alt="{{ service.title }}" class="service-card-img" loading="lazy">
+        <div class="service-card-body">
+          <div class="service-card-icon">{{ service.icon }}</div>
+          <h3 class="service-card-title">{{ service.title }}</h3>
+          <p class="service-card-desc">{{ service.short_description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section fade-in" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-heading">Join the Effort to Restore Our Waterways</h2>
+        <div class="accent-bar"></div>
+        <p>Have a question or want to stay informed? Connect with us and be part of the work that keeps our environment thriving.</p>
+        <img src="{{ '/images/dredging-05.webp' | relative_url }}" alt="Environmental surveyor at work" loading="lazy" style="border-radius: 10px; margin-top: 24px;">
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+          <span class="form-error-msg">Please enter your name.</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+          <span class="form-error-msg">Please enter a valid email.</span>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="reason">Reason for Contact</label>
+          <select id="reason" name="reason">
+            <option value="">Select a reason...</option>
+            <option value="question">Question about my waterway</option>
+            <option value="mailing-list">Join the Legacy Waters Mailing List</option>
+            <option value="both">I have a Question and want Updates</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
