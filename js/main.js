@@ -70,6 +70,11 @@
   }
 
   /* --- Intersection Observer: Fade-In --- */
+  // Add fade-in to individual service cards and other granular elements
+  document.querySelectorAll('.service-card-link, .service-card, .faq-item, .team-member').forEach(function(el) {
+    if (!el.classList.contains('fade-in')) el.classList.add('fade-in');
+  });
+
   var fadeEls = document.querySelectorAll('.fade-in');
   if (fadeEls.length && 'IntersectionObserver' in window) {
     var fadeObserver = new IntersectionObserver(function (entries) {
