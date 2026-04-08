@@ -188,3 +188,19 @@ Custom domain migration:
 - [ ] Google Search Console + analytics
 - [ ] Custom domain migration
 - [ ] Google Business Profile integration
+
+---
+
+### Blog Dashboard Integration
+The `_blog-config.json` file in the repo root enables this site in the [Proxy Blog Dashboard](https://jimmyflame77.github.io/Proxy-Blog-Dashboard/). The dashboard auto-discovers any repo containing this file and adds it to the site selector. If you build a new Jekyll site and want it to appear in the dashboard, add a `_blog-config.json` to the repo root:
+
+```json
+{
+  "postsPath": "_posts",
+  "imagesPath": "images",
+  "defaultAuthor": "Your Site Name",
+  "categories": ["Tips", "Guides", "News"]
+}
+```
+
+Adjust `imagesPath` to match your site's image directory and `categories` to match your content categories.
