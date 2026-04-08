@@ -72,6 +72,49 @@ Edit **`_data/navigation.yml`** — header, mobile menu, and footer links.
 
 ---
 
+## How to Write a Blog Post
+
+### Create the file
+
+```
+_posts/YYYY-MM-DD-your-post-slug.md
+```
+
+Example: `_posts/2026-05-01-spring-pond-maintenance-tips.md`
+
+### Front matter
+
+```yaml
+---
+layout: post
+title: "Your Post Title Here"
+date: 2026-05-01
+category: "Pond Care"
+author: "Legacy Waters"
+image: "/images/your-image.webp"
+excerpt: "Short summary for the blog card."
+description: "SEO meta description (under 160 chars)."
+---
+```
+
+### Write content in Markdown
+
+Use `##` for section headings. The layout renders a cinematic hero image, title, content, prev/next links, and CTA band.
+
+### Publish
+
+```bash
+git add _posts/2026-05-01-spring-pond-maintenance-tips.md
+git commit -m "New post: Spring pond maintenance tips"
+git push origin main
+```
+
+### Note on blog URLs
+
+URLs include the category: `/pond-care/spring-pond-maintenance-tips.html`. Changing a category changes the URL.
+
+---
+
 ## Local Development
 
 ```bash
@@ -128,17 +171,17 @@ Custom domain migration:
 ## To Do
 
 ### Phase 2 — Homepage Build
-- [ ] Full homepage with video hero, services overview, about, contact form, CTA
-- [ ] Polish all sections with real content from current WordPress site
+- [x] ~~Full homepage with video hero, services overview, about, contact form, CTA~~ — Done
+- [x] ~~Polish all sections with real content~~ — Done
 
 ### Phase 3 — Service Subpages
 - [x] ~~Build 8 service pages using `_layouts/service.html`~~ — Done
 - [x] ~~Migrate all service content, FAQs, and images~~ — Done (sediment, vegetation, invasive, waterway, trash, shoreline, bush hog, flail)
 
 ### Phase 4 — Blog & About
-- [ ] Migrate 3 blog posts with real content
-- [ ] Build out About page with team bios (Matt Hollis, Elaine Wilford)
-- [ ] Build Contact page with form
+- [x] ~~Migrate 3 blog posts with real content~~ — Done (full-length articles from WordPress site)
+- [x] ~~Build out About page with team bios~~ — Done (Matt Hollis, Elaine Wilford)
+- [x] ~~Build Contact section with form~~ — Done (on homepage, visual only — backend TBD)
 
 ### Future
 - [ ] Connect contact form to backend
