@@ -17,14 +17,16 @@ description: "Professional hydraulic dredging, aquatic vegetation harvesting, wa
   <div class="container" style="text-align: center;">
     <div class="services-grid">
       {% for service in site.data.services %}
-      <div class="service-card">
-        <img src="{{ service.image | relative_url }}" alt="{{ service.title }}" class="service-card-img" loading="lazy">
-        <div class="service-card-body">
-          <div class="service-card-icon">{{ service.icon }}</div>
-          <h3 class="service-card-title">{{ service.title }}</h3>
-          <p class="service-card-desc">{{ service.short_description }}</p>
+      <a href="{{ service.url | relative_url }}" class="service-card-link">
+        <div class="service-card">
+          <img src="{{ service.image | relative_url }}" alt="{{ service.title }}" class="service-card-img" loading="lazy">
+          <div class="service-card-body">
+            <div class="service-card-icon">{{ service.icon }}</div>
+            <h3 class="service-card-title">{{ service.title }}</h3>
+            <p class="service-card-desc">{{ service.short_description }}</p>
+          </div>
         </div>
-      </div>
+      </a>
       {% endfor %}
     </div>
   </div>

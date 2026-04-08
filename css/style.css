@@ -374,6 +374,12 @@ section { padding: 80px 0; }
   color: var(--text-light);
   line-height: 1.6;
 }
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+.service-card-link:hover { color: inherit; }
 
 /* ============================================================
    SERVICE PAGE LAYOUT
