@@ -1,7 +1,7 @@
 title: "Legacy Waters Environmental Services"
 description: "Professional hydraulic dredging, aquatic vegetation harvesting, and waterway restoration services in Maryland. Call (443) 927-4337."
-url: "https://jimmyflame77.github.io"
-baseurl: "/Legacy-Waters"
+url: "https://legacywatersenv.com"
+baseurl: ""
 permalink: none
 markdown: kramdown
 plugins:

@@ -2,7 +2,7 @@
 
 Marketing site for **Legacy Waters Environmental Services**, a company specializing in hydraulic dredging, aquatic vegetation harvesting, and waterway restoration across Maryland. Built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
-**Live site:** [https://jimmyflame77.github.io/Legacy-Waters/](https://jimmyflame77.github.io/Legacy-Waters/)
+**Live site:** [https://legacywatersenv.com](https://legacywatersenv.com)
 **Phone:** (443) 927-4337
 
 ---
@@ -120,7 +120,7 @@ URLs include the category: `/pond-care/spring-pond-maintenance-tips.html`. Chang
 ```bash
 bundle install
 bundle exec jekyll serve
-# Site at http://localhost:4000/Legacy-Waters/
+# Site at http://localhost:4000/
 ```
 
 ---
@@ -129,11 +129,9 @@ bundle exec jekyll serve
 
 Auto-deploys via **GitHub Pages** on push to `main`.
 
-Custom domain migration:
-1. Set custom domain in repo Settings → Pages
-2. Change `url` in `_config.yml` to production domain
-3. Change `baseurl` from `"/Legacy-Waters"` to `""`
-4. Push — OG images, canonicals, sitemap auto-update
+Custom domain: **legacywatersenv.com** (migration complete)
+- `url: "https://legacywatersenv.com"`, `baseurl: ""` set in `_config.yml`
+- CNAME file present at repo root
 
 ---
 
