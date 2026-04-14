@@ -117,58 +117,55 @@
     });
   });
 
-  /* --- Contact Form Validation (Visual Only) --- */
-  var form = document.getElementById('contact-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var valid = true;
+/* --- Contact Form Validation & Submission --- */
+var form = document.getElementById('contact-form');
+if (form) {
+  form.addEventListener('submit', function (e) {
+    var valid = true;
 
-      // Clear previous errors
-      form.querySelectorAll('.form-group').forEach(function (group) {
-        group.classList.remove('has-error');
-      });
+    // Clear previous errors
+    form.querySelectorAll('.form-group').forEach(function (group) {
+      group.classList.remove('has-error');
+    });
 
-      // Required fields
-      form.querySelectorAll('[required]').forEach(function (field) {
-        var group = field.closest('.form-group');
-        if (!field.value.trim()) {
-          group.classList.add('has-error');
-          field.classList.add('error');
-          valid = false;
-        } else {
-          field.classList.remove('error');
-        }
-      });
-
-      // Email format
-      var emailField = form.querySelector('input[type="email"]');
-      if (emailField && emailField.value.trim()) {
-        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailPattern.test(emailField.value.trim())) {
-          var group = emailField.closest('.form-group');
-          group.classList.add('has-error');
-          emailField.classList.add('error');
-          valid = false;
-        }
-      }
-
-      if (valid) {
-        // Show success feedback
-        var submitBtn = form.querySelector('button[type="submit"]');
-        if (submitBtn) {
-          var originalText = submitBtn.textContent;
-          submitBtn.textContent = 'Thank you!';
-          submitBtn.disabled = true;
-          setTimeout(function () {
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-            form.reset();
-          }, 3000);
-        }
+    // Required fields
+    form.querySelectorAll('[required]').forEach(function (field) {
+      var group = field.closest('.form-group');
+      if (!field.value.trim()) {
+        group.classList.add('has-error');
+        field.classList.add('error');
+        valid = false;
+      } else {
+        field.classList.remove('error');
       }
     });
-  }
+
+    // Email format
+    var emailField = form.querySelector('input[type="email"]');
+    if (emailField && emailField.value.trim()) {
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(emailField.value.trim())) {
+        var group = emailField.closest('.form-group');
+        group.classList.add('has-error');
+        emailField.classList.add('error');
+        valid = false;
+      }
+    }
+
+    // IF NOT VALID: Stop the form from submitting
+    if (!valid) {
+      e.preventDefault();
+    } else {
+      // IF VALID: Let the form submit to Web3Forms naturally.
+      // We change the button text so the user knows something is happening.
+      var submitBtn = form.querySelector('button[type="submit"]');
+      if (submitBtn) {
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
+      }
+    }
+  });
+}
 
   /* --- Video Hero: Desktop only, skip download on mobile --- */
   var heroVideo = document.querySelector('.hero-video');
