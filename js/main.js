@@ -156,13 +156,19 @@ if (form) {
     if (!valid) {
       e.preventDefault();
     } else {
-      // IF VALID: Let the form submit to Web3Forms naturally.
-      // We change the button text so the user knows something is happening.
+      // IF VALID: Add a 1-second delay before submitting to Web3Forms
+      e.preventDefault();
+      
       var submitBtn = form.querySelector('button[type="submit"]');
       if (submitBtn) {
-        submitBtn.textContent = 'Sending...';
+        submitBtn.textContent = 'Processing...';
         submitBtn.disabled = true;
       }
+      
+      // Wait 1 second, then submit the form
+      setTimeout(function() {
+        form.submit();
+      }, 1000);
     }
   });
 }
