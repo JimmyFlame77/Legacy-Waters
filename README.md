@@ -40,6 +40,10 @@ Legacy-Waters/
 
 ---
 
+## Google Verification HTML
+
+File googlecf380faee4eedd90.html stays in ROOT for continued sitemap verification
+
 ## How to Update Things Globally
 
 ### Update company info
