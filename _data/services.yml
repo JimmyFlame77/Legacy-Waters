@@ -1,6 +1,6 @@
 - slug: "sediment-management"
   title: "Pond & Lake Sediment Management"
-  url: "/sediment-management.html"
+  url: "/sediment-management/"
   icon: "🏞️"
   short_description: "Hydraulic dredging and sediment removal to restore depth, clarity, and functionality to ponds and lakes."
   image: "/images/sediment-mgmt.webp"
@@ -10,7 +10,7 @@
 
 - slug: "aquatic-vegetation-harvesting"
   title: "Aquatic Vegetation Harvesting"
-  url: "/aquatic-vegetation-harvesting.html"
+  url: "/aquatic-vegetation-harvesting/"
   icon: "🌿"
   short_description: "Mechanical harvesting to cut and collect invasive plants up to 6 feet deep, transporting biomass off-site."
   image: "/images/vegetation-harvest-1.webp"
@@ -20,7 +20,7 @@
 
 - slug: "invasive-plant-removal"
   title: "Invasive Aquatic Plant Removal"
-  url: "/invasive-plant-removal.html"
+  url: "/invasive-plant-removal/"
   icon: "🚫"
   short_description: "Professional removal of Eurasian watermilfoil, hydrilla, phragmites, and other invasive aquatic species."
   image: "/images/invasive-removal-1.webp"
@@ -30,7 +30,7 @@
 
 - slug: "waterway-cleaning"
   title: "Waterway Cleaning"
-  url: "/waterway-cleaning.html"
+  url: "/waterway-cleaning/"
   icon: "🌊"
   short_description: "Comprehensive cleaning of streams, ponds, and rivers — removing vegetation, sediment, and debris."
   image: "/images/waterway-clean-1.webp"
@@ -40,7 +40,7 @@
 
 - slug: "trash-removal"
   title: "Waterway Trash Removal"
-  url: "/trash-removal.html"
+  url: "/trash-removal/"
   icon: "♻️"
   short_description: "Efficient debris cleanup and trash removal to restore clarity and health to waterways."
   image: "/images/trash-removal-1.webp"
@@ -50,7 +50,7 @@
 
 - slug: "shoreline-cutting"
   title: "Shoreline Cutting"
-  url: "/shoreline-cutting.html"
+  url: "/shoreline-cutting/"
   icon: "✂️"
   short_description: "Precise management of waterfront vegetation, preventing erosion and enhancing accessibility."
   image: "/images/shoreline-cutting.webp"
@@ -60,7 +60,7 @@
 
 - slug: "bush-hog-mowing"
   title: "Custom Bush Hog Mowing"
-  url: "/bush-hog-mowing.html"
+  url: "/bush-hog-mowing/"
   icon: "🚜"
   short_description: "Heavy-duty rotary cutting for thick brush, tall grass, and overgrown fields up to 8 feet high."
   image: "/images/bush-hog-1.webp"
@@ -70,7 +70,7 @@
 
 - slug: "flail-mowing"
   title: "Custom Flail Mowing"
-  url: "/flail-mowing.html"
+  url: "/flail-mowing/"
   icon: "⚙️"
   short_description: "Specialized flail mowing for dense brush, invasive plants, and tough terrain along waterways and fields."
   image: "/images/flail-mowing-1.webp"
