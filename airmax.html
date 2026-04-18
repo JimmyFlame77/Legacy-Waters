@@ -14,13 +14,19 @@ permalink: /airmax/
   </div>
 </section>
 
+<style>
+  @media (min-width: 769px) {
+    .airmax-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
+
 <section class="fade-in" style="padding: 80px 0;">
   <div class="container" style="text-align: center;">
     <h2 class="section-heading">Why Airmax Certification Matters</h2>
     <div class="accent-bar accent-bar-center"></div>
     <p class="section-subtitle section-subtitle-center">Our certification provides key edges over standard services:</p>
 
-    <div class="services-grid" style="grid-template-columns: repeat(3, 1fr);">
+    <div class="services-grid airmax-grid">
 
       <div class="service-card">
         <img src="{{ '/images/airmax-cabinet-post-mount-kit-feature.webp' | relative_url }}" alt="Airmax cabinet post mount kit" class="service-card-img" loading="lazy">
