@@ -8,7 +8,7 @@
   <!-- Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/og-image.jpg">
+  <meta property="og:image" content="{% if page.og_image %}{{ site.url }}{{ site.baseurl }}/{{ page.og_image }}{% else %}{{ site.url }}{{ site.baseurl }}/images/og-image.jpg{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -17,7 +17,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/og-image.jpg">
+  <meta name="twitter:image" content="{% if page.og_image %}{{ site.url }}{{ site.baseurl }}/{{ page.og_image }}{% else %}{{ site.url }}{{ site.baseurl }}/images/og-image.jpg{% endif %}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/webp" href="{{ '/images/logo.webp' | relative_url }}">
