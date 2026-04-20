@@ -120,7 +120,7 @@ The timeline depends on the size and condition of your pond, typically ranging f
 
 Yes, when performed by experienced professionals like Legacy Waters. We follow protocols that protect aquatic life throughout the process, including careful scheduling to avoid critical breeding seasons, monitoring of water quality parameters, and immediate cessation of work if we detect adverse conditions. We work within regulatory frameworks established specifically to protect aquatic ecosystems. Many dredging projects actually improve conditions for fish and other aquatic organisms by restoring healthy water quality, adequate oxygen levels, and suitable habitat after the initial work is complete.
 
-After dredging and vegetation removal, how do I prevent my pond from turning back into a swamp?
+### After dredging and vegetation removal, how do I prevent my pond from turning back into a swamp?
 
 Long-term prevention requires addressing nutrient sources: reduce or eliminate fertilizer use on surrounding lawns, maintain a native plant buffer zone around the shoreline, ensure septic systems are functioning properly, and manage stormwater runoff. Consider periodic monitoring of water quality to catch nutrient level increases early. If your pond is naturally prone to nutrient accumulation, periodic maintenance dredging every 10-15 years combined with vegetation management may be necessary. Legacy Waters can help establish a maintenance program tailored to your situation.
 
