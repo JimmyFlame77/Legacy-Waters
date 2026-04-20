@@ -5,7 +5,7 @@ date: 2026-04-20
 category: "Pond Care"
 author: "Legacy Waters"
 image: "/images/swamp-turning-into-pond-gi2d7n.webp"
-excerpt: "\"The core issue behind a pond turning into a swamp is nutrient overload, primarily from"
+excerpt: "\"The core issue behind a pond turning into a swamp is nutrient overload, primarily from nitrogen and phosphorus."
 description: "Learn why your pond is turning into a swamp from nutrient overload. Hydraulic dredging & vegetation harvesting restore water clarity fast."
 ---
 ## The Hidden Crisis Most Pond Owners Don't See Coming
