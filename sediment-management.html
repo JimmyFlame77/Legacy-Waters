@@ -6,6 +6,91 @@ hero_title: "Pond & Lake Sediment Management"
 canonical: "{{ 'sediment-management.html' | relative_url }}"
 label: "Our Services"
 hero_image: "/images/sediment-mgmt.webp"
+extra_head: |
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Pond & Lake Sediment Management",
+    "description": "Professional hydraulic dredging and sediment removal for ponds and lakes across Maryland and the Mid-Atlantic. Restore depth, clarity, and water quality with Legacy Waters.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Legacy Waters Environmental Services",
+      "url": "https://legacywatersenv.com",
+      "telephone": "(443) 927-4337",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Harford County",
+        "addressRegion": "MD",
+        "addressCountry": "US"
+      }
+    },
+    "serviceType": "Sediment Management",
+    "areaServed": [
+      { "@type": "State", "name": "Maryland" },
+      { "@type": "State", "name": "Virginia" },
+      { "@type": "State", "name": "Delaware" },
+      { "@type": "State", "name": "Pennsylvania" }
+    ],
+    "url": "https://legacywatersenv.com/sediment-management/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is hydraulic dredging for sediment management?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hydraulic dredging is a sediment removal method that uses water-powered equipment to extract accumulated sediment from ponds, lakes, and waterways. This process restores water depth and clarity while minimizing environmental disruption, making it ideal for maintaining healthy aquatic ecosystems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does sediment buildup affect pond and lake health?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Excess sediment reduces water depth, decreases oxygen levels, and creates favorable conditions for invasive vegetation growth. Over time, sediment accumulation degrades water quality, harms aquatic habitats, and can render water bodies unsuitable for recreational or ecological use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the benefits of professional sediment removal services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Professional sediment removal restores waterway depth, improves water clarity, enhances aquatic habitat quality, and extends the functional lifespan of ponds and lakes. These services also help property owners meet environmental compliance requirements while protecting ecosystem health."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often should sediment be removed from ponds and lakes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sediment removal frequency depends on watershed characteristics, erosion rates, and water body usage, but most ponds and lakes benefit from assessment every 5-10 years. Regular monitoring helps identify when sediment levels have accumulated enough to impact water quality and depth."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between sediment management and erosion control?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sediment management focuses on removing existing accumulated sediment from water bodies to restore functionality, while erosion control prevents new sediment from entering waterways through upstream land management practices. Effective watershed protection often requires both approaches working together."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does sediment removal harm aquatic ecosystems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When performed by trained professionals using appropriate methods, sediment removal minimizes ecological disruption and actually improves long-term habitat quality. Modern hydraulic dredging techniques are designed to selectively remove excess sediment while preserving natural substrates and native aquatic life."
+        }
+      }
+    ]
+  }
+  </script>
 
 intro:
   heading: "Professional Pond & Lake Sediment Removal"
@@ -31,14 +116,276 @@ benefits:
     We employ professional hydraulic dredging methods that target specific sediment zones while minimizing environmental impact. Our process includes initial assessment, sediment settling pond development, systematic dredging, and proper sediment disposal.
 
     Each project is managed with attention to detail, ensuring long-term water quality improvement and restored functionality. Legacy Waters works closely with each client to understand their goals and recommend the most effective approach for removing sediment and invasive vegetation.
-
-faqs:
-  - question: "What are the long-term benefits of professional sediment removal?"
-    answer: "Professional sediment removal restores water depth and capacity, improves water clarity and quality, and reduces conditions that promote invasive plant growth. Over time, this extends the life of your pond or lake, enhances fish and wildlife habitat, and improves the aesthetic and recreational value of your property."
-  - question: "How often should pond or lake sediment removal be performed?"
-    answer: "The frequency depends on factors like watershed size, surrounding land use, and the rate of runoff into your water body. Most ponds and lakes benefit from sediment assessment every 3 to 5 years, with dredging performed as needed. Legacy Waters can evaluate your specific conditions and recommend an appropriate maintenance schedule."
-  - question: "How does hydraulic dredging remove sediment without harming aquatic life?"
-    answer: "Hydraulic dredging uses a pump system to suction sediment from the bottom and transport it through a pipeline to a designated settling area. This method is less disruptive than mechanical excavation because it does not require draining the water body. Our team carefully manages the process to minimize turbidity and protect fish, plants, and other aquatic organisms."
-  - question: "What is sediment accumulation and why does it happen in ponds and lakes?"
-    answer: "Sediment accumulation occurs when soil, organic matter, and nutrients wash into a pond or lake from surrounding land through stormwater runoff. Leaves, grass clippings, and decaying vegetation also contribute. Over time, this buildup reduces water depth, promotes algae and invasive plant growth, and degrades overall water quality."
 ---
+
+<style>
+  /* FAQ Accordion — sediment-management */
+  .faq-section {
+    padding: 80px 0;
+    background: var(--bg-alt, #f4f8f7);
+  }
+
+  .faq-section .faq-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .faq-list {
+    max-width: 800px;
+    margin: 40px auto 0;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .faq-item:first-child {
+    border-top: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .faq-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 4px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::marker { display: none; }
+
+  .faq-q {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--dark);
+    flex: 1;
+    transition: color 0.2s ease;
+  }
+
+  .faq-item summary:hover .faq-q,
+  .faq-item[open] summary .faq-q {
+    color: var(--teal);
+  }
+
+  .faq-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid rgba(0, 128, 128, 0.3);
+    border-radius: 3px;
+    background: rgba(0, 128, 128, 0.05);
+    position: relative;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .faq-item summary:hover .faq-icon,
+  .faq-item[open] summary .faq-icon {
+    background: rgba(0, 128, 128, 0.12);
+    border-color: var(--teal);
+  }
+
+  .faq-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 2px;
+    background: var(--teal);
+    border-radius: 1px;
+  }
+
+  .faq-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 12px;
+    background: var(--teal);
+    border-radius: 1px;
+    transition: transform 0.3s cubic-bezier(0.77,0,0.18,1), opacity 0.22s ease;
+  }
+
+  .faq-item[open] .faq-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+  }
+
+  .faq-body {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.38s cubic-bezier(0.77,0,0.18,1),
+                opacity 0.28s ease,
+                padding 0.32s ease;
+    padding-bottom: 0;
+  }
+
+  .faq-body.is-open {
+    opacity: 1;
+    padding-bottom: 24px;
+  }
+
+  .faq-body p {
+    font-size: 0.97rem;
+    color: var(--text);
+    line-height: 1.8;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 680px) {
+    .faq-section { padding: 60px 0; }
+    .faq-item summary { padding: 18px 0; gap: 14px; }
+    .faq-icon { width: 24px; height: 24px; }
+  }
+
+  @media (max-width: 420px) {
+    .faq-section { padding: 48px 0; }
+    .faq-q { font-size: 0.875rem; }
+  }
+</style>
+
+<section class="faq-section fade-in">
+  <div class="container">
+    <div class="faq-inner">
+      <span class="section-label">Common Questions</span>
+      <h2 class="section-heading">Sediment Management: Frequently Asked Questions</h2>
+      <div class="accent-bar accent-bar-center"></div>
+    </div>
+    <ul class="faq-list" role="list">
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What is hydraulic dredging for sediment management?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Hydraulic dredging is a sediment removal method that uses water-powered equipment to extract accumulated sediment from ponds, lakes, and waterways. This process restores water depth and clarity while minimizing environmental disruption, making it ideal for maintaining healthy aquatic ecosystems.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How does sediment buildup affect pond and lake health?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Excess sediment reduces water depth, decreases oxygen levels, and creates favorable conditions for invasive vegetation growth. Over time, sediment accumulation degrades water quality, harms aquatic habitats, and can render water bodies unsuitable for recreational or ecological use.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What are the benefits of professional sediment removal services?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Professional sediment removal restores waterway depth, improves water clarity, enhances aquatic habitat quality, and extends the functional lifespan of ponds and lakes. These services also help property owners meet environmental compliance requirements while protecting ecosystem health.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How often should sediment be removed from ponds and lakes?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Sediment removal frequency depends on watershed characteristics, erosion rates, and water body usage, but most ponds and lakes benefit from assessment every 5&ndash;10 years. Regular monitoring helps identify when sediment levels have accumulated enough to impact water quality and depth.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What is the difference between sediment management and erosion control?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Sediment management focuses on removing existing accumulated sediment from water bodies to restore functionality, while erosion control prevents new sediment from entering waterways through upstream land management practices. Effective watershed protection often requires both approaches working together.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">Does sediment removal harm aquatic ecosystems?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>When performed by trained professionals using appropriate methods, sediment removal minimizes ecological disruption and actually improves long-term habitat quality. Modern hydraulic dredging techniques are designed to selectively remove excess sediment while preserving natural substrates and native aquatic life.</p>
+          </div>
+        </details>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<script>
+(function () {
+  var items = document.querySelectorAll('.faq-item details');
+
+  function openItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    details.open = true;
+    body.style.maxHeight = body.scrollHeight + 'px';
+    body.classList.add('is-open');
+  }
+
+  function closeItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    body.style.maxHeight = '0';
+    body.classList.remove('is-open');
+    setTimeout(function () {
+      if (!details.open) return;
+      details.open = false;
+    }, 380);
+  }
+
+  items.forEach(function (details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    if (details.open) {
+      body.style.maxHeight = body.scrollHeight + 'px';
+      body.classList.add('is-open');
+    }
+    details.addEventListener('click', function (e) {
+      if (!e.target.closest('summary')) return;
+      e.preventDefault();
+      if (details.open) {
+        closeItem(details);
+      } else {
+        items.forEach(function (other) {
+          if (other !== details && other.open) closeItem(other);
+        });
+        openItem(details);
+      }
+    });
+  });
+})();
+</script>
