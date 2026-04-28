@@ -134,7 +134,283 @@ description: "Professional hydraulic dredging, aquatic vegetation harvesting, wa
 </section>
 <!-- END EDITORIAL SECTION -->
 
-<!-- FAQ SECTION — placeholder, content coming next -->
+<!-- FAQ SECTION -->
+<style>
+  .services-faq {
+    padding: clamp(60px, 8vw, 100px) 0;
+    background: var(--bg, #fff);
+  }
+
+  .services-faq .faq-header {
+    text-align: center;
+    margin-bottom: clamp(36px, 5vw, 52px);
+  }
+
+  .services-faq .faq-header h2 {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    color: var(--dark);
+    margin-bottom: 0;
+    line-height: 1.25;
+  }
+
+  .services-faq .faq-list {
+    max-width: 720px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  .services-faq .faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .services-faq .faq-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .services-faq .faq-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 4px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .services-faq .faq-item summary::-webkit-details-marker { display: none; }
+  .services-faq .faq-item summary::marker { display: none; }
+
+  .services-faq .faq-q {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--dark);
+    flex: 1;
+    transition: color 0.2s ease;
+  }
+
+  .services-faq .faq-item summary:hover .faq-q,
+  .services-faq .faq-item[open] summary .faq-q {
+    color: var(--teal);
+  }
+
+  .services-faq .faq-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid rgba(0, 128, 128, 0.3);
+    border-radius: 3px;
+    background: rgba(0, 128, 128, 0.05);
+    position: relative;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .services-faq .faq-item summary:hover .faq-icon,
+  .services-faq .faq-item[open] summary .faq-icon {
+    background: rgba(0, 128, 128, 0.12);
+    border-color: var(--teal);
+  }
+
+  .services-faq .faq-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 2px;
+    background: var(--teal);
+    border-radius: 1px;
+  }
+
+  .services-faq .faq-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 12px;
+    background: var(--teal);
+    border-radius: 1px;
+    transition: transform 0.3s cubic-bezier(0.77, 0, 0.18, 1), opacity 0.22s ease;
+  }
+
+  .services-faq .faq-item[open] .faq-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+  }
+
+  .services-faq .faq-body {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.38s cubic-bezier(0.77, 0, 0.18, 1),
+                opacity 0.28s ease,
+                padding 0.32s ease;
+    padding-bottom: 0;
+  }
+
+  .services-faq .faq-body.is-open {
+    opacity: 1;
+    padding-bottom: 24px;
+  }
+
+  .services-faq .faq-body p {
+    font-size: clamp(0.93rem, 1.4vw, 1rem);
+    color: var(--text);
+    line-height: 1.8;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 680px) {
+    .services-faq { padding: 60px 0; }
+    .services-faq .faq-item summary { padding: 18px 0; gap: 14px; }
+    .services-faq .faq-icon { width: 24px; height: 24px; }
+  }
+
+  @media (max-width: 420px) {
+    .services-faq { padding: 48px 0; }
+    .services-faq .faq-q { font-size: 0.875rem; }
+  }
+</style>
+
+<section class="services-faq fade-in">
+  <div class="container">
+    <div class="faq-header">
+      <span class="section-label">Common Questions</span>
+      <h2>FAQs about Our Pond, Lake, and Waterway Environmental Services</h2>
+      <div class="accent-bar accent-bar-center"></div>
+    </div>
+    <ul class="faq-list" role="list">
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What problems do your services solve for ponds and lakes?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Our services address shallow water from sediment buildup, invasive vegetation overgrowth, poor water clarity, and trash accumulation that limit recreation, aesthetics, and ecological health. By removing the underlying causes, we help restore depth, improve circulation, and support a more balanced, resilient aquatic environment.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How does hydraulic dredging benefit my waterbody?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Hydraulic dredging removes accumulated sediment without draining your pond or lake, which minimizes disruption to surrounding properties and habitats. Restoring depth improves water quality, reduces the risk of fish kills, and slows the cycle of weed and algae growth that drives up long-term maintenance costs.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">When should I consider aquatic vegetation harvesting?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>You should consider vegetation harvesting when weeds or algae are limiting access for fishing, boating, or irrigation, or when dense growth is trapping sediment and trash. Harvesting is also appropriate when you want targeted removal of nuisance species while preserving beneficial plants that support habitat and shoreline stability.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">Do you provide services for municipalities and larger watersheds?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Yes, Legacy Waters routinely supports municipalities, public agencies, and larger property portfolios that manage multiple ponds, lakes, and waterways. We coordinate with engineers, planners, and maintenance teams to align our work with broader infrastructure, flood control, and community goals.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How long do results from your services typically last?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Project longevity depends on watershed conditions, upstream inputs, and ongoing maintenance practices, but properly planned dredging and vegetation management can provide benefits for many years. We help clients understand the factors that influence longevity and build realistic maintenance plans to protect their investment.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How do I get started with a Legacy Waters project?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Getting started is as simple as contacting our team with details about your pond, lake, or waterway and the issues you are seeing. We will review your site, discuss options, and recommend a clear path forward tailored to your goals, budget, and timeline.</p>
+          </div>
+        </details>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<script>
+(function () {
+  var items = document.querySelectorAll('.services-faq .faq-item details');
+
+  function openItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    details.open = true;
+    body.style.maxHeight = body.scrollHeight + 'px';
+    body.classList.add('is-open');
+  }
+
+  function closeItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    body.style.maxHeight = '0';
+    body.classList.remove('is-open');
+    setTimeout(function () {
+      if (!details.open) return;
+      details.open = false;
+    }, 380);
+  }
+
+  items.forEach(function (details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    if (details.open) {
+      body.style.maxHeight = body.scrollHeight + 'px';
+      body.classList.add('is-open');
+    }
+    details.addEventListener('click', function (e) {
+      if (!e.target.closest('summary')) return;
+      e.preventDefault();
+      if (details.open) {
+        closeItem(details);
+      } else {
+        items.forEach(function (other) {
+          if (other !== details && other.open) closeItem(other);
+        });
+        openItem(details);
+      }
+    });
+  });
+})();
+</script>
+<!-- END FAQ SECTION -->
 
 <!-- CTA Band -->
 <section class="cta-band">
