@@ -190,9 +190,9 @@ Custom domain: **legacywatersenv.com** (migration complete)
 - [x] ~~Build Contact section with form~~ — Done (on homepage, visual only — backend TBD)
 
 ### Future
-- [ ] Connect contact form to backend
-- [ ] Google Search Console + analytics
-- [ ] Custom domain migration
+- [x] ~~Connect contact form to backend~~ - Done
+- [x] ~~Google Search Console + analytics~~ - Done
+- [x] ~~Custom domain migration~~ - Done
 - [ ] Google Business Profile integration
 
 ---
