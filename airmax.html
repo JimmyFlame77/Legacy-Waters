@@ -53,7 +53,7 @@ extra_head: |
     <span class="section-label">Certified Airmax Repair Center</span>
     <h1>Airmax EcoService: Expert Pond &amp; Lake Aeration Solutions</h1>
     <div class="accent-bar accent-bar-center" style="background: var(--ocean);"></div>
-    <p>At Legacy Waters Environmental Services, we deliver top-tier pond and lake aeration through our Certified Airmax Repair Center status. As Maryland's go-to experts in waterway restoration, our team has completed Airmax Eco's eCAST training program. This equips our technicians for authorized installations, maintenance, troubleshooting, and repairs of Airmax aeration systems and fountains—keeping your water bodies pristine year-round.</p>
+    <p>At Legacy Waters Environmental Services, we deliver top-tier pond and lake aeration through our Certified Airmax Repair Center status. As Maryland's go-to experts in waterway restoration, our team has completed Airmax Eco's eCAST training program. This equips our technicians for authorized installations, maintenance, troubleshooting, and repairs of Airmax aeration systems and fountains&mdash;keeping your water bodies pristine year-round.</p>
   </div>
 </section>
 
@@ -83,7 +83,7 @@ extra_head: |
         <img src="{{ '/images/airmax-aeration-proair4-diffuser-underwater.webp' | relative_url }}" alt="Airmax ProAir4 diffuser underwater" class="service-card-img" loading="lazy">
         <div class="service-card-body">
           <h3 class="service-card-title">Proactive Pond Health</h3>
-          <p class="service-card-desc">We boost oxygen levels to curb muck buildup, algae, and invasive weeds—pairing perfectly with our hydraulic dredging and vegetation harvesting for full ecosystem recovery.</p>
+          <p class="service-card-desc">We boost oxygen levels to curb muck buildup, algae, and invasive weeds&mdash;pairing perfectly with our hydraulic dredging and vegetation harvesting for full ecosystem recovery.</p>
         </div>
       </div>
 
@@ -105,9 +105,287 @@ extra_head: |
     <span class="section-label">Regional Expertise</span>
     <h2 class="section-heading">Tailored for Mid-Atlantic Properties and Beyond</h2>
     <div class="accent-bar accent-bar-center"></div>
-    <p style="font-size: 1.08rem; color: var(--text); line-height: 1.8;">From Bel Air across the region, we blend Airmax systems into comprehensive management plans. After dredging? A PS40 aeration kit sustains depth and clarity. Facing stagnation? Eco-friendly fountains enhance circulation and visuals. Enjoy fewer maintenance needs, thriving fish habitats, and regulatory compliance—for lasting water quality ROI.</p>
+    <p style="font-size: 1.08rem; color: var(--text); line-height: 1.8;">From Bel Air across the region, we blend Airmax systems into comprehensive management plans. After dredging? A PS40 aeration kit sustains depth and clarity. Facing stagnation? Eco-friendly fountains enhance circulation and visuals. Enjoy fewer maintenance needs, thriving fish habitats, and regulatory compliance&mdash;for lasting water quality ROI.</p>
   </div>
 </section>
+
+<!-- FAQ SECTION -->
+<style>
+  .airmax-faq {
+    padding: clamp(60px, 8vw, 100px) 0;
+    background: var(--bg, #fff);
+  }
+
+  .airmax-faq .faq-header {
+    text-align: center;
+    margin-bottom: clamp(36px, 5vw, 52px);
+  }
+
+  .airmax-faq .faq-header h2 {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    color: var(--dark);
+    margin-bottom: 20px;
+    line-height: 1.25;
+  }
+
+  .airmax-faq .faq-list {
+    max-width: 720px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  .airmax-faq .faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .airmax-faq .faq-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .airmax-faq .faq-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 4px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .airmax-faq .faq-item summary::-webkit-details-marker { display: none; }
+  .airmax-faq .faq-item summary::marker { display: none; }
+
+  .airmax-faq .faq-q {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--dark);
+    flex: 1;
+    transition: color 0.2s ease;
+  }
+
+  .airmax-faq .faq-item summary:hover .faq-q,
+  .airmax-faq .faq-item[open] summary .faq-q {
+    color: var(--teal);
+  }
+
+  .airmax-faq .faq-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid rgba(0, 128, 128, 0.3);
+    border-radius: 3px;
+    background: rgba(0, 128, 128, 0.05);
+    position: relative;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .airmax-faq .faq-item summary:hover .faq-icon,
+  .airmax-faq .faq-item[open] summary .faq-icon {
+    background: rgba(0, 128, 128, 0.12);
+    border-color: var(--teal);
+  }
+
+  .airmax-faq .faq-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 2px;
+    background: var(--teal);
+    border-radius: 1px;
+  }
+
+  .airmax-faq .faq-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 12px;
+    background: var(--teal);
+    border-radius: 1px;
+    transition: transform 0.3s cubic-bezier(0.77, 0, 0.18, 1), opacity 0.22s ease;
+  }
+
+  .airmax-faq .faq-item[open] .faq-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+  }
+
+  .airmax-faq .faq-body {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.38s cubic-bezier(0.77, 0, 0.18, 1),
+                opacity 0.28s ease,
+                padding 0.32s ease;
+    padding-bottom: 0;
+  }
+
+  .airmax-faq .faq-body.is-open {
+    opacity: 1;
+    padding-bottom: 24px;
+  }
+
+  .airmax-faq .faq-body p {
+    font-size: clamp(0.93rem, 1.4vw, 1rem);
+    color: var(--text);
+    line-height: 1.8;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 680px) {
+    .airmax-faq { padding: 60px 0; }
+    .airmax-faq .faq-item summary { padding: 18px 0; gap: 14px; }
+    .airmax-faq .faq-icon { width: 24px; height: 24px; }
+  }
+
+  @media (max-width: 420px) {
+    .airmax-faq { padding: 48px 0; }
+    .airmax-faq .faq-q { font-size: 0.875rem; }
+  }
+</style>
+
+<section class="airmax-faq fade-in">
+  <div class="container">
+    <div class="faq-header">
+      <span class="section-label">Common Questions</span>
+      <h2>Airmax Aeration Questions? We Have Answers.</h2>
+      <div class="accent-bar accent-bar-center"></div>
+    </div>
+    <ul class="faq-list" role="list">
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What is an Airmax aeration system and how does it improve my pond or lake?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>An Airmax aeration system uses bottom-diffused air to increase dissolved oxygen across the entire water column, which helps reduce muck, algae, and foul odors while supporting healthier fish and aquatic life. By preventing stagnation and improving circulation, Airmax systems also enhance water clarity and help protect the results of dredging and vegetation removal over the long term.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">Why should I choose a Certified Airmax Repair Center instead of a general pond service?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>A Certified Airmax Repair Center is trained and authorized by Airmax Eco to install, maintain, troubleshoot, and repair Airmax compressors, control panels, diffusers, and fountains to factory standards. This means you can access warranty-covered repairs, faster diagnosis, and properly sized equipment, which reduces downtime, avoids costly mistakes, and extends the life of your aeration system.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How does Legacy Waters design an Airmax aeration plan for my specific property?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Legacy Waters starts with a complimentary pond or lake profile that considers surface area, depth, shoreline shape, existing issues like algae or muck, and your goals for aesthetics and fish habitat. Using Airmax tools and training, the team then recommends the right PondSeries or LakeSeries aeration kits, fountains, and controls, and can integrate them with dredging, harvesting, and ongoing management for Mid&#8209;Atlantic conditions.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">What types of Airmax services do you offer (installation, repair, and maintenance)?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>As a Certified Airmax Repair Center, Legacy Waters provides full-lifecycle service, including new system design and installation, seasonal start&#8209;ups and winterization, proactive maintenance, and warranty and out&#8209;of&#8209;warranty repairs on Airmax aeration systems and fountains. Technicians are trained through the Airmax Eco eCAST program to properly service compressors, diffusers, control panels, and electrical components so your system runs efficiently year&#8209;round.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">How quickly can Airmax aeration improve water quality after dredging or vegetation removal?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>In many ponds and lakes, properly sized Airmax aeration begins improving circulation and dissolved oxygen within days, which helps stabilize conditions after dredging or vegetation harvesting. Visible changes in clarity, odor, and muck reduction can take several weeks to a full season, depending on nutrient loads, depth, and how long the waterbody has been stagnant, but aeration is critical to protecting your restoration investment.</p>
+          </div>
+        </details>
+      </li>
+
+      <li class="faq-item">
+        <details>
+          <summary>
+            <span class="faq-q">Do you only serve Maryland, or can you help with Airmax projects across the Mid&#8209;Atlantic?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Legacy Waters is based in Bel Air, Maryland, and regularly serves ponds and lakes throughout the Mid&#8209;Atlantic, offering regional expertise in local regulations, climate, and watershed conditions. If you manage multiple properties or larger lakes outside central Maryland, the team can evaluate your site and either provide direct service or coordinate a scalable Airmax plan tailored to your portfolio.</p>
+          </div>
+        </details>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<script>
+(function () {
+  var items = document.querySelectorAll('.airmax-faq .faq-item details');
+
+  function openItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    details.open = true;
+    body.style.maxHeight = body.scrollHeight + 'px';
+    body.classList.add('is-open');
+  }
+
+  function closeItem(details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    body.style.maxHeight = '0';
+    body.classList.remove('is-open');
+    setTimeout(function () {
+      if (!details.open) return;
+      details.open = false;
+    }, 380);
+  }
+
+  items.forEach(function (details) {
+    var body = details.querySelector('.faq-body');
+    if (!body) return;
+    if (details.open) {
+      body.style.maxHeight = body.scrollHeight + 'px';
+      body.classList.add('is-open');
+    }
+    details.addEventListener('click', function (e) {
+      if (!e.target.closest('summary')) return;
+      e.preventDefault();
+      if (details.open) {
+        closeItem(details);
+      } else {
+        items.forEach(function (other) {
+          if (other !== details && other.open) closeItem(other);
+        });
+        openItem(details);
+      }
+    });
+  });
+})();
+</script>
+<!-- END FAQ SECTION -->
 
 <!-- Start Your Aeration Plan Section -->
 <section class="fade-in" style="padding: 80px 0; background: var(--teal); text-align: center;">
