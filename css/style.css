@@ -1080,6 +1080,9 @@ section { padding: 80px 0; }
   .info-card { flex: 0 0 100%; max-width: 100%; }
   .info-cards-section { padding: 28px 0; }
   .info-cards-section .section-heading { font-size: 1.3rem; }
+  .info-cards-section .section-heading,
+  .info-cards-section .section-label { text-align: left; }
+  .info-cards-section .accent-bar-center { margin-left: 0; margin-right: 0; }
   .service-section { padding: 28px 0; }
 
   /* Post nav: wrap titles on mobile */
