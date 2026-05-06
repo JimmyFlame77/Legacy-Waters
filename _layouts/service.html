@@ -47,20 +47,20 @@ layout: default
 </section>
 {% endif %}
 
-<!-- Benefits Section (can also be used for other layout purposes) -->
+<!-- Benefits Section -->
 {% if page.benefits %}
 <section class="service-section fade-in">
   <div class="container service-row">
-    <div class="service-col service-text">
-      <h2>{{ page.benefits.heading }}</h2>
-      <div class="accent-bar"></div>
-      {{ page.benefits.text | markdownify }}
-    </div>
     {% if page.benefits.image %}
     <div class="service-col service-img">
       <img src="{{ page.benefits.image | relative_url }}" alt="{{ page.benefits.image_alt | default: page.title }}" loading="lazy">
     </div>
     {% endif %}
+    <div class="service-col service-text">
+      <h2>{{ page.benefits.heading }}</h2>
+      <div class="accent-bar"></div>
+      {{ page.benefits.text | markdownify }}
+    </div>
   </div>
 </section>
 {% endif %}
