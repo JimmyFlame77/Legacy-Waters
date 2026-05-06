@@ -65,6 +65,33 @@ layout: default
 </section>
 {% endif %}
 
+<!-- Info Cards Section -->
+{% if page.cards %}
+<section class="info-cards-section fade-in">
+  <div class="container">
+    {% if page.cards.label %}<span class="section-label">{{ page.cards.label }}</span>{% endif %}
+    {% if page.cards.heading %}<h2 class="section-heading">{{ page.cards.heading }}</h2>{% endif %}
+    <div class="accent-bar accent-bar-center"></div>
+    <div class="info-cards-grid">
+      {% for card in page.cards.items %}
+      <div class="info-card">
+        {% if card.image %}
+        <div class="info-card-img">
+          <img src="{{ card.image | relative_url }}" alt="{{ card.image_alt | default: card.heading }}" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="info-card-body">
+          <h3 class="info-card-heading">{{ card.heading }}</h3>
+          <div class="accent-bar"></div>
+          {% if card.text %}<p class="info-card-text">{{ card.text }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <!-- FAQ Accordion -->
 {% if page.faqs %}
 <section class="faq-section fade-in">
