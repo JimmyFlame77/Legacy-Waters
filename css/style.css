@@ -479,6 +479,7 @@ section { padding: 80px 0; }
 }
 .info-cards-section .section-heading,
 .info-cards-section .section-label { text-align: center; display: block; }
+.info-cards-section .section-heading { font-size: clamp(1.4rem, 3vw, 2rem); }
 .info-cards-grid {
   display: flex;
   flex-wrap: wrap;
@@ -1047,9 +1048,9 @@ section { padding: 80px 0; }
   .blog-search-wrap { max-width: 100%; }
   .team-member { grid-template-columns: 1fr; }
   .info-card { flex: 0 0 calc(50% - 16px); max-width: calc(50% - 16px); }
-  .info-cards-section { padding: 56px 0; }
+  .info-cards-section { padding: 48px 0; }
   .info-cards-section .section-heading { font-size: 1.4rem; }
-  .service-section { padding: 56px 0; }
+  .service-section { padding: 48px 0; }
 
   section { padding: 56px 0; }
 }
@@ -1077,9 +1078,9 @@ section { padding: 80px 0; }
 
   .faq-question { font-size: 0.95rem; padding: 16px 0; }
   .info-card { flex: 0 0 100%; max-width: 100%; }
-  .info-cards-section { padding: 40px 0; }
+  .info-cards-section { padding: 28px 0; }
   .info-cards-section .section-heading { font-size: 1.3rem; }
-  .service-section { padding: 40px 0; }
+  .service-section { padding: 28px 0; }
 
   /* Post nav: wrap titles on mobile */
   .post-nav-inner { flex-direction: column; gap: 16px; }
