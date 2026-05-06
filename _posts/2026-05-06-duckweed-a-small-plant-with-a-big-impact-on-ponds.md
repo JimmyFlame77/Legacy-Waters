@@ -8,7 +8,6 @@ image: "/images/duckweed-kc8ndd.webp"
 excerpt: "Whether you're managing a private pond in Maryland, overseeing a community lake, or maintaining a waterway on a golf course or HOA property, duckweed is a threat you can't afford to ignore. Understanding what it is, how it spreads, why it becomes problematic, and — most importantly — how to get rid of it effectively is the first step toward protecting the long-term health of your water."
 description: "Don't let duckweed take over your pond. This guide covers everything you need to know about Lemna minor identification and removal."
 ---
-
 Duckweed (_Lemna minor_) may be the world's smallest flowering plant, but don't let its size fool you. A single frond can double into a full pond-smothering mat within days, blocking sunlight, depleting oxygen, and suffocating native aquatic life beneath a deceptively green surface. Duckweed is one of the most common calls we receive — and one of the most underestimated threats to the long-term health of a pond or lake.
 
 Whether you're managing a private pond in Maryland, overseeing a community lake, or maintaining a waterway on a golf course or HOA property, duckweed is a threat you can't afford to ignore. Understanding what it is, how it spreads, why it becomes problematic, and — most importantly — how to get rid of it effectively is the first step toward protecting the long-term health of your water.
@@ -85,15 +84,13 @@ At Legacy Waters, we believe that restoring a waterway means more than just remo
 
 Our team serves homeowners, HOAs, golf courses, municipalities, and commercial property managers across Maryland and the Mid-Atlantic. We provide free on-site consultations and detailed project estimates, so you always know exactly what to expect before we begin. From mechanical vegetation harvesting to hydraulic dredging for sediment removal, our services address both the symptoms and the underlying causes of aquatic degradation.
 
-We handle the permitting, execution, and follow-up monitoring — giving you a healthier, cleaner waterway without the complexity of managing it yourself. Whether you're dealing with duckweed, Eurasian watermilfoil, hydrilla, phragmites, or curly-leaf pondweed, we have the equipment, expertise, and regulatory knowledge to get the job done right. [Contact Legacy Waters today](https://legacywatersenv.com/)
-
- to schedule your free consultation.
+We handle the permitting, execution, and follow-up monitoring — giving you a healthier, cleaner waterway without the complexity of managing it yourself. Whether you're dealing with duckweed, Eurasian watermilfoil, hydrilla, phragmites, or curly-leaf pondweed, we have the equipment, expertise, and regulatory knowledge to get the job done right.
 
 ## The Bigger Picture: Why Invasive Aquatic Plants Matter
 
 Duckweed is just one of many invasive aquatic plant species threatening the health of Maryland's ponds, lakes, and waterways. Maryland's diverse landscape — from the Chesapeake Bay watershed to western mountain streams — creates a mosaic of aquatic habitats, each with its own ecological character and its own vulnerability to invasive species pressure.
 
-The Maryland Department of Natural Resources has recognized the severity of aquatic invasive species and has implemented grant programs and regulatory frameworks to support their management. But regulations alone aren't enough. Effective stewardship of our waterways requires informed property owners, proactive management, and professional expertise working together.
+The [Maryland Department of Natural Resources](https://dnr.maryland.gov/Pages/default.aspx) has recognized the severity of aquatic invasive species and has implemented grant programs and regulatory frameworks to support their management. But regulations alone aren't enough. Effective stewardship of our waterways requires informed property owners, proactive management, and professional expertise working together.
 
 When a pond or lake becomes dominated by duckweed or any other invasive species, the damage extends beyond property aesthetics. Native fish populations decline. Waterfowl lose access to the aquatic vegetation they depend on for food and nesting material. The entire food web is disrupted. Reversing that damage takes time, investment, and consistent effort — but it is entirely achievable with the right approach.
 
