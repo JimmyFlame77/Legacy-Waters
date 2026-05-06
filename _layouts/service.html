@@ -21,7 +21,7 @@ layout: default
     </div>
     {% endif %}
     <div class="service-col service-text">
-      <h1>{{ page.intro.heading }}</h1>
+      <h2>{{ page.intro.heading }}</h2>
       <div class="accent-bar"></div>
       {{ page.intro.text | markdownify }}
     </div>
@@ -34,7 +34,7 @@ layout: default
 <section class="info-cards-section fade-in">
   <div class="container">
     {% if page.cards.label %}<span class="section-label">{{ page.cards.label }}</span>{% endif %}
-    {% if page.cards.heading %}<h2 class="section-heading">{{ page.cards.heading }}</h2>{% endif %}
+    {% if page.cards.heading %}<h3 class="section-heading">{{ page.cards.heading }}</h3>{% endif %}
     <div class="accent-bar accent-bar-center"></div>
     <div class="info-cards-grid">
       {% for card in page.cards.items %}
