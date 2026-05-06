@@ -22,15 +22,11 @@ Invasive plants are not just “extra weeds” in the water; they are non-native
 
 From our perspective in the field, invasive plants quickly move from “minor annoyance” to “serious threat” if they aren’t handled early and aggressively. We consistently see four major impacts on Mid-Atlantic ponds and lakes:
 
-  
-
 Invasive plants also interact with nutrient pollution and sediment build-up. As sediment accumulates and ponds get shallower, sunlight reaches more of the bottom, giving invasive plants more room to grow. At the same time, excess nutrients from runoff feed both invasive plants and algae, triggering a cycle of nuisance growth, decay, and poor clarity.
 
 ## Common Invasive Plants in Mid-Atlantic Ponds and Lakes
 
 When we visit ponds and lakes in the Mid-Atlantic, we routinely see a familiar group of invasive plants that behave aggressively and demand professional intervention. A few of the most common offenders include:
-
-  
 
 From our vantage point at Legacy Waters, identifying the exact invasive plants present is the first step toward choosing the right strategy to restore your pond or lake.
 
@@ -40,15 +36,11 @@ Invasive plants succeed because they are built to exploit the conditions common 
 
 In our work, we see several recurring mechanisms that allow invasive aquatic plants to dominate:
 
-  
-
 Because invasive plants exploit this combination of factors, we never look at them in isolation. At Legacy Waters, we design solutions that address both the invasive plants and the underlying sediment and nutrient conditions that help them spread.
 
 ## Signs Your Pond or Lake Has an Invasive Aquatic Plant Problem
 
 Many property owners call us after aquatic plants are already dominating their water, but there are earlier warning signs that something is going wrong. Some of the most common indicators we see in Mid-Atlantic ponds and lakes include:
-
-  
 
 If you are recognizing these conditions in your waterbody, invasive plants are not a future concern—they are already reshaping how your pond or lake works. That is exactly where Legacy Waters steps in.
 
@@ -58,8 +50,6 @@ As a company dedicated to restoring the health and longevity of ponds and lakes,
 
 We do this through two core services that work together:
 
-  
-
 Because we operate across Maryland and the broader Mid-Atlantic, we align our [invasive aquatic plant removal](https://legacywatersenv.com/invasive-plant-removal/) practices with regional regulations and best management practices. Our goal is to leave water better than we found it while protecting the ecosystems and communities that rely on it.
 
 ## Mechanical Harvesting: A Powerful Tool Against Invasive Aquatic Plants
@@ -67,8 +57,6 @@ Because we operate across Maryland and the broader Mid-Atlantic, we align our [i
 Mechanical harvesting is one of the primary tools we use at Legacy Waters to control invasive plants in ponds and lakes. Our aquatic vegetation harvesting services rely on advanced, purpose-built equipment that operates directly on the water.
 
 Here is how our mechanical harvesting process addresses invasive plants:
-
-  
 
 Mechanical harvesting is especially attractive for property owners and municipalities that want an effective, chemical-free way to deal with invasive plants. It restores access, improves aesthetics, and directly removes the problem from your water rather than just knocking it back temporarily.
 
@@ -78,8 +66,6 @@ In our experience, one of the most overlooked aspects of invasive aquatic plant 
 
 At Legacy Waters, we deliberately remove and transport the biomass off-site to break that nutrient cycle. By physically extracting invasive plants from your pond or lake, we:
 
-  
-
 This focus on biomass removal makes our approach to invasive plants much more than a cosmetic fix. It is a structural reset for your pond or lake.
 
 ## Addressing Both Invasive Aquatic Plants and Sediment
@@ -88,23 +74,17 @@ Healthy ponds and lakes depend on depth, circulation, and balanced plant communi
 
 Through hydraulic dredging, we remove accumulated sediment that has filled in your pond or lake over time. This process:
 
-  
-
 By combining sediment removal with targeted harvesting of invasive plants, we build a longer-lasting solution instead of chasing symptoms year after year.
 
 ## The Legacy Waters Process for Managing Invasive Aquatic Plants
 
 Every pond or lake is unique, but our process for tackling invasive plants follows a consistent, proven framework. When you bring us in to help with invasive plants, we generally move through these stages:
 
-  
-
 By approaching invasive plants as an ongoing management need rather than a one-time “fix,” we help protect your investment in your pond or lake over the long term.
 
 ## Benefits for Homeowners, HOAs, Farms, and Municipalities
 
 Across Maryland and the Mid-Atlantic, we work with a wide range of clients who are battling invasive aquatic plants: private homeowners, HOAs, golf courses, farms, commercial properties, and local governments. No matter the client, removing invasive plants delivers similar benefits:
-
-  
 
 When we remove invasive plants and restore depth, we are not just “cleaning up weeds.” We are protecting the legacy of your pond or lake and making sure it continues to serve your property, your community, and the environment.
 
@@ -114,15 +94,11 @@ At Legacy Waters, our entire business is built around restoring ponds, lakes, an
 
 When you trust us with your invasive plants, you get:
 
-  
-
 If invasive plants are keeping you from enjoying or fully using your waterbody, we are ready to help you reclaim it.
 
 ## How to Prevent Invasive Aquatic Plants from Coming Back
 
 While no waterbody can be completely “invasion-proof,” there are practical steps we encourage clients to take to reduce the risk of invasive plants returning after we restore a pond or lake. Some of the most effective actions include:
-
-  
 
 We can help you build these prevention steps into a long-term management plan that protects the work we do together.
 
@@ -144,7 +120,7 @@ At Legacy Waters, we see the damage invasive plants cause firsthand, which is wh
 
 From our experience, there are a few clear warning signs that you are dealing with invasive plants instead of a balanced mix of native species. If vegetation forms thick, impenetrable mats at the surface, if it suddenly appears in large patches after boat traffic or shoreline work, or if growth seems to be expanding dramatically from one season to the next, invasive plants are likely involved.
 
-Species like Eurasian watermilfoil, [hydrilla](https://legacywatersenv.com/tips/2026/05/06/hydrilla-invasive-aquatic-plant-in-maryland-s-waterways/), and curly-leaf pondweed have distinct features, but accurate identification often requires trained eyes. We regularly visit Mid-Atlantic ponds and lakes to identify invasive plants and recommend the right mechanical harvesting and sediment management strategy.
+Species like [Eurasian watermilfoil](https://legacywatersenv.com/tips/2026/05/06/eurasian-watermilfoil-what-it-is-why-it-s-a-problem/), [hydrilla](https://legacywatersenv.com/tips/2026/05/06/hydrilla-invasive-aquatic-plant-in-maryland-s-waterways/), and curly-leaf pondweed have distinct features, but accurate identification often requires trained eyes. We regularly visit Mid-Atlantic ponds and lakes to identify invasive plants and recommend the right mechanical harvesting and sediment management strategy.
 
 ### What makes Legacy Waters’ approach different when dealing with invasive plants?
 
