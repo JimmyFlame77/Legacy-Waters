@@ -52,7 +52,7 @@ _Lemna minor_ specifically has oval, bright green fronds with a flat upper surf
 
 ## Duckweed Control and Removal Strategies
 
-Effective duckweed management almost always involves a combination of approaches. There is no single silver bullet, and any plan that doesn't address the root cause — excess nutrients and poor water circulation — will see duckweed return season after season.
+Effective [duckweed removal and management](https://legacywatersenv.com/pond%20care/2026/05/07/duckweed-removal-and-control-a-complete-guide/) almost always involves a combination of approaches. There is no single silver bullet, and any plan that doesn't address the root cause — excess nutrients and poor water circulation — will see duckweed return season after season.
 
 ### Nutrient Reduction
 
