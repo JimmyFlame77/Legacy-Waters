@@ -38,7 +38,11 @@ layout: default
     <div class="accent-bar accent-bar-center"></div>
     <div class="info-cards-grid">
       {% for card in page.cards.items %}
+      {% if card.url %}
+      <a href="{{ card.url | relative_url }}" class="info-card info-card-link">
+      {% else %}
       <div class="info-card">
+      {% endif %}
         {% if card.image %}
         <div class="info-card-img">
           <img src="{{ card.image | relative_url }}" alt="{{ card.image_alt | default: card.heading }}" loading="lazy">
@@ -49,7 +53,11 @@ layout: default
           <div class="accent-bar"></div>
           {% if card.text %}<p class="info-card-text">{{ card.text }}</p>{% endif %}
         </div>
+      {% if card.url %}
+      </a>
+      {% else %}
       </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>

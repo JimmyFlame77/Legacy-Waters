@@ -7,6 +7,14 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:title/
+
 exclude:
   - Gemfile
   - Gemfile.lock
