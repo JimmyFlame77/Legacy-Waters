@@ -15,7 +15,7 @@ Effective duckweed removal requires more than a single treatment. It demands a c
 
 ## What Makes Duckweed So Difficult to Control
 
-[Duckweed (_Lemna_ spp.)](https://legacywatersenv.com/pond%20care/2026/05/06/duckweed-a-small-plant-with-a-big-impact-on-ponds/) is a free-floating aquatic plant — often just a few millimeters across — that reproduces vegetatively at a remarkable rate. Under ideal conditions, a duckweed population can double its biomass in as little as 48 hours. That pace of growth means that what looks like a minor nuisance in early spring can develop into a dense, oxygen-blocking mat by midsummer.
+[Duckweed (_Lemna_ spp.)](https://legacywatersenv.com/duckweed-a-small-plant-with-a-big-impact-on-ponds/) is a free-floating aquatic plant — often just a few millimeters across — that reproduces vegetatively at a remarkable rate. Under ideal conditions, a duckweed population can double its biomass in as little as 48 hours. That pace of growth means that what looks like a minor nuisance in early spring can develop into a dense, oxygen-blocking mat by midsummer.
 
 The conditions duckweed prefers are unfortunately common in many managed ponds: still or slow-moving water, warm temperatures, and — most critically — high concentrations of nitrogen and phosphorus. These nutrients act as fuel. Ponds that receive runoff from fertilized lawns, discharge from poorly maintained septic systems, or contributions from waterfowl and livestock are often chronically over-enriched, creating a cycle of growth that repeats every season regardless of what surface treatments are applied.
 
