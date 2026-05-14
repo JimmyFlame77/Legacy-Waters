@@ -120,7 +120,7 @@ At Legacy Waters, we see the damage invasive plants cause firsthand, which is wh
 
 From our experience, there are a few clear warning signs that you are dealing with invasive plants instead of a balanced mix of native species. If vegetation forms thick, impenetrable mats at the surface, if it suddenly appears in large patches after boat traffic or shoreline work, or if growth seems to be expanding dramatically from one season to the next, invasive plants are likely involved.
 
-Species like [Eurasian watermilfoil](https://legacywatersenv.com/tips/2026/05/06/eurasian-watermilfoil-what-it-is-why-it-s-a-problem/), [hydrilla](https://legacywatersenv.com/tips/2026/05/06/hydrilla-invasive-aquatic-plant-in-maryland-s-waterways/), and curly-leaf pondweed have distinct features, but accurate identification often requires trained eyes. We regularly visit Mid-Atlantic ponds and lakes to identify invasive plants and recommend the right mechanical harvesting and sediment management strategy.
+Species like [Eurasian watermilfoil](https://legacywatersenv.com/eurasian-watermilfoil-what-it-is-why-it-s-a-problem/), [hydrilla](https://legacywatersenv.com/hydrilla-invasive-aquatic-plant-in-maryland-s-waterways/), and curly-leaf pondweed have distinct features, but accurate identification often requires trained eyes. We regularly visit Mid-Atlantic ponds and lakes to identify invasive plants and recommend the right mechanical harvesting and sediment management strategy.
 
 ### What makes Legacy Waters’ approach different when dealing with invasive plants?
 
