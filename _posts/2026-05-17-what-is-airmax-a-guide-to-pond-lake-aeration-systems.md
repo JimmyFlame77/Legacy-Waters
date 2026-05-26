@@ -8,7 +8,6 @@ image: "/images/what-is-airmax-adepwf.webp"
 excerpt: "Airmax is the industry-leading manufacturer of aeration systems and natural water treatments for ponds and lakes. With over 20 years of field experience and a product line built specifically around the science of aquatic ecosystem management, Airmax has become the gold standard for property owners, municipalities, and environmental service professionals who are serious about long-term water health."
 description: "Legacy Waters' certified Airmax experts restore pond health with proven aeration systems and natural treatments. Get your free pond profile today."
 ---
-
 Every pond and lake tells a story — and for most property owners, that story eventually leads to Airmax. These aren't just cosmetic problems. They're signs that something is fundamentally wrong beneath the surface. That's where Airmax comes in — and why, at Legacy Waters Environmental Services, it's one of the most important tools we bring to every water management project we take on.
 
 Airmax is the industry-leading manufacturer of aeration systems and natural water treatments for ponds and lakes. With over 20 years of field experience and a product line built specifically around the science of aquatic ecosystem management, Airmax has become the gold standard for property owners, municipalities, and environmental service professionals who are serious about long-term water health. At Legacy Waters, our team members are [**certified and authorized Airmax**](https://legacywatersenv.com/airmax/) installation, maintenance, and repair service providers — meaning we don't just understand these systems, we're trained to the highest standard in deploying and sustaining them.
@@ -17,7 +16,7 @@ Airmax is the industry-leading manufacturer of aeration systems and natural wate
 
 Airmax, Inc. is the manufacturer behind a comprehensive ecosystem of pond and lake management products — from diffused aeration systems and decorative fountains to natural bacteria treatments and water clarifiers. What makes Airmax distinctly different from generic aeration or pond treatment products is the philosophy behind it. Airmax doesn't approach pond management as a series of isolated fixes. Instead, it's built around a complete, proven three-step system called the Airmax Ecosystem.
 
-The Airmax Ecosystem follows a simple but powerful framework: React, Prevent, and Aerate. Each step plays a specific role in turning a struggling, imbalanced water body into a clean, clear, and thriving aquatic environment. Whether you're managing a quarter-acre backyard pond or a 100-acre lake, the principles remain the same. The scale changes. The approach doesn't.
+The Airmax Ecosystem follows a [simple but powerful framework](https://legacywatersenv.com/airmax-ecosystem-framework-a-guide-to-pond-lake-care/): React, Prevent, and Aerate. Each step plays a specific role in turning a struggling, imbalanced water body into a clean, clear, and thriving aquatic environment. Whether you're managing a quarter-acre backyard pond or a 100-acre lake, the principles remain the same. The scale changes. The approach doesn't.
 
 ## The React Step: Addressing Immediate Problems
 
