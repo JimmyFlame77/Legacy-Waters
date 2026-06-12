@@ -8,7 +8,6 @@ image: "/images/waterway-cleaning-services-3cnp82.webp"
 excerpt: "Waterway cleaning goes far beyond basic surface cleanup. This work combines targeted removal of built‑up sediment, nuisance or invasive vegetation, and natural and man‑made debris that have accumulated over time. The goal is to restore both the function and the appearance of the waterway, not just make it look better for a season."
 description: "Comprehensive waterway cleaning services for ponds, streams, & rivers—removing sediment, vegetation, & debris to restore depth, clarity, & stormwater flow."
 ---
-
 Comprehensive waterway cleaning services are one of the most effective ways to restore the health, safety, and appearance of streams, ponds, and rivers across Maryland and the Mid‑Atlantic. By carefully removing excess vegetation, sediment, and debris, these services help each waterway function as intended—supporting local ecosystems, managing stormwater more effectively, and enhancing the value and enjoyment of surrounding properties.
 
 ## What Comprehensive Waterway Cleaning Services Involve
@@ -29,13 +28,13 @@ By investing in [comprehensive waterway cleaning services](https://legacywaterse
 
 Sediment gradually settles out of stormwater and runoff, building up at the bottom of ponds, lakes, and channels. As that layer thickens, the waterbody becomes shallower and more vulnerable to temperature swings, algae blooms, and vegetation overgrowth. In many cases, the original design depth is significantly reduced, limiting storage capacity and stormwater performance.
 
-Waterway cleaning services address this challenge with sediment removal and depth restoration. Using methods such as hydraulic dredging and other sediment management techniques, accumulated material is carefully removed and functional depth is restored. Done correctly, this improves water quality, stabilizes temperatures, and allows the waterbody to store and convey water as intended, extending the life of the system and reducing the likelihood of costly reconstruction.
+Waterway cleaning services address this challenge with sediment removal and depth restoration. Using methods such as hydraulic dredging and other [sediment management](https://legacywatersenv.com/sediment-management/) techniques, accumulated material is carefully removed and functional depth is restored. Done correctly, this improves water quality, stabilizes temperatures, and allows the waterbody to store and convey water as intended, extending the life of the system and reducing the likelihood of costly reconstruction.
 
 ### Aquatic Vegetation and Invasive Plant Management
 
 Aquatic plants are a natural and important part of healthy waterways, but when certain species become dominant—or when overall growth gets out of control—they can overwhelm a pond or channel. Dense growth traps sediment, blocks sunlight in key zones, impedes flow, and creates an environment that favors algae and further nuisance growth.
 
-As part of comprehensive waterway cleaning services, vegetation management focuses on strategic, targeted control rather than indiscriminate removal. Mechanical harvesting and other specialized techniques are used to thin or remove overgrown and invasive vegetation, especially species known to spread aggressively and displace native plants. By opening up water surfaces and creating space for a more diverse plant community, this work stabilizes the ecosystem and improves both the appearance and function of the waterway.
+As part of comprehensive waterway cleaning services, vegetation management focuses on strategic, targeted control rather than indiscriminate removal. Mechanical harvesting and other specialized techniques are used to thin or [remove overgrown and invasive vegetation](https://legacywatersenv.com/reclaim-your-water-solutions-for-invasive-aquatic-plants/), especially species known to spread aggressively and displace native plants. By opening up water surfaces and creating space for a more diverse plant community, this work stabilizes the ecosystem and improves both the appearance and function of the waterway.
 
 ### Debris, Litter, and Obstruction Removal
 
@@ -119,7 +118,7 @@ The right frequency depends on watershed conditions, surrounding land use, and s
 
 ### What problems do comprehensive waterway cleaning services solve?
 
-Waterway cleaning addresses shallow or silted‑in ponds, overgrown or invasive aquatic vegetation, recurring algae blooms, unpleasant odors, blocked inlets and outlets, and localized flooding caused by reduced capacity. By combining sediment removal, vegetation management, and debris clearing, these services restore both the appearance and function of streams, ponds, and rivers so they can handle stormwater more effectively and support healthier aquatic life.
+Waterway cleaning addresses shallow or silted‑in ponds, overgrown or [invasive aquatic vegetation](https://legacywatersenv.com/invasive-plant-removal/), recurring algae blooms, unpleasant odors, blocked inlets and outlets, and localized flooding caused by reduced capacity. By combining sediment removal, vegetation management, and debris clearing, these services restore both the appearance and function of streams, ponds, and rivers so they can handle stormwater more effectively and support healthier aquatic life.
 
 ### How do I know if my pond or stream needs comprehensive waterway cleaning services?
 
