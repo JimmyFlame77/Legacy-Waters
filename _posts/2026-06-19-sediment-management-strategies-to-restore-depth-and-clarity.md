@@ -22,11 +22,9 @@ This process rarely happens overnight. Each storm, each season, each fallen leaf
 
 ## Why Sediment Management Strategies Matter
 
-Thoughtful sediment management strategies exist to interrupt that cycle before it becomes irreversible. By treating sediment not as an inevitable nuisance, but as a predictable force that can be controlled, routed, and removed, you protect both the present and future function of your waterbody.
+Thoughtful [sediment management strategies](https://legacywatersenv.com/sediment-management/) exist to interrupt that cycle before it becomes irreversible. By treating sediment not as an inevitable nuisance, but as a predictable force that can be controlled, routed, and removed, you protect both the present and future function of your waterbody.
 
-Effective strategies:
-
-  
+### Effective strategies:
 
 Every system is different. A small ornamental pond beside a commercial complex, a farm impoundment, and a community stormwater lake all receive sediment in different ways and at different rates. [Sediment management](https://legacywatersenv.com/sediment-management/) strategies that work for one may be inadequate for another, which is why a site-specific approach grounded in real observations matters more than any one‑size‑fits‑all method.
 
