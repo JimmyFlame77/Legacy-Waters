@@ -8,7 +8,7 @@ image: "/images/sediment-management-strategies-7ir2en.webp"
 excerpt: "Sediment management strategies begin with a simple truth: sediment will always move, carried on the back of wind and rain as they quietly redraw the edges of every pond, lake, and waterway. The question is not whether sediment will enter your water, but whether you have the right sediment management strategies in place to control it, route it safely, and remove it before it transforms clear water into a shallow, weedy basin."
 description: "Restore depth and clarity with expert sediment management strategies that control, route, and remove buildup to protect your pond or lake."
 ---
-Sediment management strategies begin with a simple truth: sediment will always move, carried on the back of wind and rain as they quietly redraw the edges of every pond, lake, and waterway. The question is not whether sediment will enter your water, but whether you have the right sediment management strategies in place to control it, route it safely, and remove it before it transforms clear water into a shallow, weedy basin.
+[Sediment management strategies](https://legacywatersenv.com/sediment-management/) begin with a simple truth: sediment will always move, carried on the back of wind and rain as they quietly redraw the edges of every pond, lake, and waterway. The question is not whether sediment will enter your water, but whether you have the right sediment management strategies in place to control it, route it safely, and remove it before it transforms clear water into a shallow, weedy basin.
 
 From the vantage point of the shoreline, the difference between a thriving pond and a failing one often comes down to how deliberately that story is managed.
 
