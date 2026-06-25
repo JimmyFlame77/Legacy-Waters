@@ -30,31 +30,43 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
-  <!-- LocalBusiness Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "{{ site.data.site.company_name }}",
-    "description": "{{ site.description }}",
-    "url": "{{ site.url }}{{ site.baseurl }}",
-    "telephone": "{{ site.data.site.phone }}",
-    "image": "{{ site.url }}{{ site.baseurl }}/images/og-image.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Harford County",
-      "addressRegion": "MD",
-      "addressCountry": "US"
-    },
-    "areaServed": [
-      { "@type": "State", "name": "Maryland" },
-      { "@type": "State", "name": "Virginia" },
-      { "@type": "State", "name": "Delaware" },
-      { "@type": "State", "name": "Pennsylvania" }
-    ],
-    "serviceType": ["Hydraulic Dredging", "Aquatic Vegetation Harvesting", "Waterway Restoration", "Sediment Removal", "Shoreline Cutting", "Bush Hog Mowing"]
-  }
-  </script>
+<!-- LocalBusiness Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://legacywatersenv.com/#localbusiness",
+  "name": "Legacy Waters Environmental Services",
+  "description": "Professional hydraulic dredging, aquatic vegetation harvesting, and waterway restoration services in Maryland and the Mid-Atlantic.",
+  "url": "https://legacywatersenv.com/",
+  "telephone": "+14439274337",
+  "image": "https://legacywatersenv.com/images/og-image.jpg",
+  "sameAs": [
+    "https://www.google.com/maps/place/Legacy+Waters+Environmental+Services,+LLC/@39.7150274,-76.7786836,764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89c867cf4208683f:0x82ccc502c837e225!8m2!3d39.7150274!4d-76.7761087!16s%2Fg%2F11jwj50grn"
+  ],
+  "hasMap": "https://www.google.com/maps/place/Legacy+Waters+Environmental+Services,+LLC/@39.7150274,-76.7786836,764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89c867cf4208683f:0x82ccc502c837e225!8m2!3d39.7150274!4d-76.7761087!16s%2Fg%2F11jwj50grn",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Harford County",
+    "addressRegion": "MD",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Maryland" },
+    { "@type": "AdministrativeArea", "name": "Virginia" },
+    { "@type": "AdministrativeArea", "name": "Delaware" },
+    { "@type": "AdministrativeArea", "name": "Pennsylvania" }
+  ],
+  "serviceType": [
+    "Hydraulic Dredging",
+    "Aquatic Vegetation Harvesting",
+    "Waterway Restoration",
+    "Sediment Removal",
+    "Shoreline Cutting",
+    "Bush Hog Mowing"
+  ]
+}
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVEPBV4C5S"></script>
