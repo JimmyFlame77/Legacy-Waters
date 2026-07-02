@@ -1,3 +1,13 @@
+- slug: "pond-cleaning"
+  title: "Pond Cleaning"
+  url: "/pond-cleaning/"
+  icon: "♻️"
+  short_description: "Efficient pond cleaning and trash removal to restore clarity and health to ponds."
+  image: "/images/trash-removal-1.webp"
+  images:
+    - "/images/trash-removal-1.webp"
+    - "/images/trash-removal-2.webp"
+
 - slug: "sediment-management"
   title: "Pond & Lake Sediment Management"
   url: "/sediment-management/"
@@ -37,16 +47,6 @@
   images:
     - "/images/waterway-clean-1.webp"
     - "/images/waterway-clean-2.webp"
-
-- slug: "pond-cleaning"
-  title: "Pond Cleaning"
-  url: "/pond-cleaning/"
-  icon: "♻️"
-  short_description: "Efficient pond cleaning and trash removal to restore clarity and health to ponds."
-  image: "/images/trash-removal-1.webp"
-  images:
-    - "/images/trash-removal-1.webp"
-    - "/images/trash-removal-2.webp"
 
 - slug: "shoreline-cutting"
   title: "Shoreline Cutting"
