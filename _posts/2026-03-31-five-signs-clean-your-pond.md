@@ -4,14 +4,13 @@ title: "5 Major Signs It's Time to Clean Your Pond"
 date: 2026-03-31
 category: "Pond Care"
 author: "Legacy Waters"
-image: /images/dirty-pond.webp
+image: "/images/dirty-pond.webp"
 excerpt: "A pond can be one of the most beautiful and valuable features on a property. But like anything worth having, it requires attention."
 description: "Discover the 5 warning signs your pond needs cleaning — from murky water to fish die-offs. Expert pond care tips."
 ---
-
 A pond can be one of the most beautiful and valuable features on a property. It attracts wildlife, adds aesthetic appeal, supports irrigation, and can even improve land value. But like anything worth having, it requires attention. Ponds are living ecosystems, and when they're neglected long enough, they let you know. The problem is that the signs of a pond in decline tend to show up gradually — so gradually that many property owners don't notice how far things have gone until the situation is well past a quick fix.
 
-If your pond has been on your mental back-burner for a season or two, here are five signs it's time to stop waiting and get it cleaned up.
+If your pond has been on your mental back-burner for a season or two, here are five signs it's time to stop waiting and [get it cleaned up](https://legacywatersenv.com/professional-pond-cleaning-services-why-it-s-a-smart-choice/).
 
 ## The Water Has Turned Green, Brown, or Murky
 
