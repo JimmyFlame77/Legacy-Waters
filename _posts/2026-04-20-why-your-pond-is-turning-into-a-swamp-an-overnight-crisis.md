@@ -24,7 +24,7 @@ This process is called eutrophication—essentially, the ecological enrichment o
 
 ## From Clear Water to Green Soup: The Visible Signs
 
-When a pond is turning into a swamp due to nutrient overload, the warning signs are unmistakable. The water often takes on a distinctly green or brownish hue—this is typically algae. At first, you might see small patches of green algae near the surface, but as nutrient levels rise, the algae multiplies rapidly. The water becomes so thick with algae that you can't see more than a few inches below the surface.
+When a pond is turning into a swamp due to nutrient overload, the [warning signs](https://legacywatersenv.com/five-signs-clean-your-pond/) are unmistakable. The water often takes on a distinctly green or brownish hue—this is typically algae. At first, you might see small patches of green algae near the surface, but as nutrient levels rise, the algae multiplies rapidly. The water becomes so thick with algae that you can't see more than a few inches below the surface.
 
 Beyond the algae, invasive aquatic plants begin their own aggressive colonization. Water lilies, duckweed, cattails, and other aquatic vegetation spread rapidly, creating dense mats that eventually cover large portions of the pond surface. You'll notice that recreation becomes impossible—swimming becomes unsafe, boating becomes difficult, and fishing becomes unproductive because the fish themselves are struggling in the degraded environment.
 
@@ -50,7 +50,7 @@ The beauty of hydraulic dredging is that it's not a one-time magic cure—it's a
 
 ## Vegetation Harvesting: Reclaiming Your Waterway
 
-While hydraulic dredging addresses the sediment problem, vegetation harvesting directly tackles the invasive plant overgrowth that's visible on the surface. This isn't as simple as pulling weeds, though—it requires specialized equipment and expertise to do effectively without damaging the pond ecosystem or allowing invasive species to spread even further.
+While hydraulic dredging addresses the [sediment problem](https://legacywatersenv.com/sediment-management-strategies-to-restore-depth-and-clarity/), vegetation harvesting directly tackles the invasive plant overgrowth that's visible on the surface. This isn't as simple as pulling weeds, though—it requires specialized equipment and expertise to do effectively without damaging the pond ecosystem or allowing invasive species to spread even further.
 
 Professional vegetation harvesting uses hydro-rakes and other mechanical equipment to remove aquatic plants—including their root systems—from the pond. This mechanical removal is particularly effective for fibrous, difficult-to-kill species like cattails and for dense mats of invasive floating plants.
 
