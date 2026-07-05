@@ -28,8 +28,6 @@ Many pond owners start with a do‑it‑yourself mindset. On paper, it sounds si
 
 At minimum, most DIY pond cleaning efforts rely on tools like:
 
-  
-
 On a small decorative pond, those tools might be enough to make a visible difference. On a larger stormwater or commercial pond, they often barely scratch the surface. A net can skim leaves, but it won’t remove the sediment sitting several feet below that is driving algae growth and water quality issues.
 
 ### Time and Physical Effort
@@ -44,8 +42,6 @@ The biggest concern with DIY pond cleaning isn’t effort—it’s risk. When yo
 
 Some of the most common risks we see include:
 
-  
-
 These risks increase dramatically in complex ponds—systems with multiple zones, koi populations, intricate rock work, waterfalls, or more advanced filtration. In those environments, even small missteps can cascade into major problems that cost far more to correct than a professional cleaning would have.
 
 ## What Professional Pond Cleaning Services Actually Involve
@@ -56,8 +52,6 @@ When we talk about professional pond cleaning at Legacy Waters, we mean much mor
 
 Before we begin work, we evaluate three critical factors:
 
-  
-
 This assessment stage helps us determine whether you’re dealing primarily with surface debris, sub‑surface sludge, invasive vegetation, or a combination of all three. Each pond accumulates material differently; two ponds that look similar from the shoreline can have very different challenges beneath the surface.
 
 ### Sediment Removal and Dredging
@@ -65,8 +59,6 @@ This assessment stage helps us determine whether you’re dealing primarily with
 For medium to large ponds across Maryland and the broader Mid‑Atlantic, sediment removal is often at the core of our work. Over time, runoff and organic debris build up and form thick layers that quietly reduce depth and storage capacity.
 
 We use hydraulic dredging and other specialized [sediment management](https://legacywatersenv.com/sediment-management-strategies-to-restore-depth-and-clarity/) methods to:
-
-  
 
 By targeting the material causing the imbalance, we address the source of the problem rather than just the visible symptoms on the surface.blog.
 
@@ -76,8 +68,6 @@ Many ponds in the Mid‑Atlantic are framed by grass, shrubs, and trees. Those s
 
 Our professional pond cleaning services include:
 
-  
-
 We use mechanical harvesting and targeted removal methods designed to protect desirable species while [keeping invasive plants in check](https://legacywatersenv.com/reclaim-your-water-solutions-for-invasive-aquatic-plants/).
 
 ### Aeration and Circulation Improvements
@@ -85,8 +75,6 @@ We use mechanical harvesting and targeted removal methods designed to protect de
 Stable water quality relies on steady circulation and adequate oxygen. When sludge accumulates and vegetation closes in, circulation slows, and the pond becomes more susceptible to algae blooms and low‑oxygen events.
 
 As part of our cleaning process, we may:
-
-  
 
 This focus on the pond’s “breathing” is essential, particularly in warm Mid‑Atlantic summers when oxygen levels can fluctuate dramatically.
 
@@ -108,15 +96,11 @@ However, for medium and large ponds, the cost picture changes. You may find your
 
 Professional cleaning has a clearer upfront price tag, but it also carries long‑term savings:
 
-  
-
 In many cases, investing in professional pond cleaning services prevents costs that would otherwise arrive slowly and quietly in the form of repairs, replacements, and repeated short‑term fixes.
 
 ### Risk Profiles
 
 DIY pond cleaning always exposes you to more risk, simply because you’re working without the benefit of specialized experience and equipment. The most serious risks include:
-
-  
 
 Professional services carry their own risks, but we manage those risks deliberately. Our cleaning process is controlled to limit disruption, and we can adjust methods to protect aquatic life while still removing the material causing the imbalance.
 
@@ -130,15 +114,11 @@ DIY efforts can certainly improve appearances: fewer leaves on the surface, less
 
 Professional pond cleaning services deliver changes you can see and feel:
 
-  
-
 Because we focus on the causes of imbalance rather than just visible symptoms, the results reach deeper and last longer.
 
 ## Why Professional Pond Cleaning Services are the Better Choice
 
 For medium and large ponds across Maryland and the broader Mid‑Atlantic, professional pond cleaning services are almost always the better choice, especially when any of the following apply:
-
-  
 
 In these scenarios, the stakes are higher. Damage to fish populations, loss of depth, impaired stormwater performance, and shoreline erosion are all consequences that reach beyond aesthetics. Our work is designed to restore balance below the surface, protect the ecosystem, and help the pond function the way it was meant to.blog.
 
@@ -151,8 +131,6 @@ Ponds throughout Maryland and the greater Mid‑Atlantic have their own distinct
 Our team is based in Maryland and works across the Mid‑Atlantic, so we see these conditions every day. We understand how local runoff patterns, surrounding land use, and vegetation impact ponds over time—and how that buildup changes stormwater performance, clarity, and ecological health.
 
 By tailoring our methods to regional conditions, we’re able to:
-
-  
 
 This regional focus means you’re not just hiring someone to remove material—you’re working with a team that understands how your pond fits into the broader landscape.
 
@@ -168,7 +146,7 @@ These are the situations we see most often when owners reach out and say, “We 
 
 ### How can I tell when my pond needs professional pond cleaning services?
 
-From our perspective, your [pond needs professional pond cleaning services](https://legacywatersenv.com/five-signs-clean-your-pond/) when problems keep returning after basic care. If you notice recurring algae, cloudy or discolored water, strong odors, or a clear loss of depth near the shoreline, sludge and sediment have likely built up beyond what simple skimming and filter cleaning can handle. Changes in fish behavior, like gasping at the surface or avoiding certain areas, are another sign that it’s time for a professional cleaning.
+From our perspective, your pond [needs professional pond cleaning](https://legacywatersenv.com/five-signs-clean-your-pond/) services when problems keep returning after basic care. If you notice recurring algae, cloudy or discolored water, strong odors, or a clear loss of depth near the shoreline, sludge and sediment have likely built up beyond what simple skimming and filter cleaning can handle. Changes in fish behavior, like gasping at the surface or avoiding certain areas, are another sign that it’s time for a professional cleaning.
 
 ### How often does a medium or large pond need professional pond cleaning services?
 
