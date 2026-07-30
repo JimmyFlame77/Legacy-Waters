@@ -1,4 +1,5 @@
 # Legacy Waters Environmental Services — Maryland
+## Site launch - May 30, 2026
 
 Marketing site for **Legacy Waters Environmental Services**, a company specializing in hydraulic dredging, aquatic vegetation harvesting, and waterway restoration across Maryland. Built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
