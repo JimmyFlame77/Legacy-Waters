@@ -9,7 +9,7 @@ excerpt: "Jurisdictional wetlands are one of the most misunderstood elements in 
 description: "Learn the 5 key signs your property may have jurisdictional wetlands before starting construction. Avoid costly fines and delays."
 ---
 
-You've got a piece of land. Maybe you've owned it for years, or maybe you just closed on it last month. You have plans — a home, a commercial development, maybe just a cleared lot you want to clean up. You've walked the property, you know the lay of the land, and you're ready to move forward. Then someone mentions the word "wetlands" and everything slows down.
+You've got a piece of land. Maybe you've owned it for years, or maybe you just closed on it last month. You have plans: a home, a commercial development, maybe just a cleared lot you want to clean up. You've walked the property, you know the lay of the land, and you're ready to move forward. Then someone mentions the word "wetlands" and everything slows down.
 
 Jurisdictional wetlands are one of the most misunderstood elements in land development, and one of the most consequential. The term "jurisdictional" means those wetlands fall under the regulatory authority of the U.S. Army Corps of Engineers under Section 404 of the Clean Water Act. Disturbing them without the proper permits can result in stop-work orders, hefty fines, and costly restoration requirements — even if you had no idea they were there.
 
