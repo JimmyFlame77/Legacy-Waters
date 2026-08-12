@@ -18,6 +18,16 @@
     - "/images/excavator.webp"
     - "/images/sediment-mgmt.webp"
 
+- slug: "pond-dredging"
+  title: "Pond Dredging"
+  url: "/pond-dredging/"
+  icon: "🏞️"
+  short_description: "Pond dredging to restore your pond's depth, functionality, and beauty."
+  image: "/images/vegetation-mgmt-2.webp"
+  images:
+    - "/images/vegetation-mgmt-2.webp"
+    - "/images/sediment-mgmt.webp"
+
 - slug: "aquatic-vegetation-harvesting"
   title: "Aquatic Vegetation Harvesting"
   url: "/aquatic-vegetation-harvesting/"
