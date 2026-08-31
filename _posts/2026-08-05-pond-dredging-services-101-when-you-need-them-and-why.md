@@ -8,7 +8,6 @@ image: "/images/pond-dredging-services-0vxrty.webp"
 excerpt: "At the heart of pond dredging services is the process of removing accumulated sediment from the bottom of a pond so it can regain depth, function, and better water quality. In plain terms, it gives the pond room to breathe again."
 description: "Legacy Waters explains when pond dredging services are needed, what sediment buildup does, and why professional removal matters."
 ---
-
 Most property owners do not think much about pond dredging services until the pond starts looking or behaving differently. By the time that happens, sediment, decaying leaves, runoff, plant matter, and fine silt have usually been building up for years and quietly reducing depth, circulation, and water quality.
 
 ## What pond dredging means
@@ -29,12 +28,7 @@ Pond dredging services become necessary when routine maintenance no longer keeps
 
 Common signs include:
 
--   Water that stays green, brown, or murky.
--   A sour, musty, or rotten egg smell.
--   Sludge around the shoreline or in shallow areas.
--   Aquatic weeds spreading faster than usual.
--   Fish surfacing, gasping, or showing stress.
--   A pond that is shallower than it used to be or has lost storage capacity.
+  
 
 These signs usually develop slowly, which is why pond decline is easy to miss at first. A pond usually does not fail all at once. It fills, slows, warms, and loses balance in stages.
 
@@ -54,7 +48,7 @@ A pond that looks simple can still hide uneven sediment depth, soft banks, fish 
 
 ## The equipment matters
 
-Professional pond dredging services rely on specialized equipment built for sediment removal, not guesswork. Legacy Waters uses hydraulic dredging methods and related sediment management approaches to remove accumulated material while protecting the surrounding environment. That kind of work depends on control, precision, and minimizing disruption.
+Professional pond dredging services rely on specialized equipment built for [sediment removal and disposal](https://legacywatersenv.com/pond-dredging-sediment-disposal-everything-you-need-to-know/), not guesswork. Legacy Waters uses hydraulic dredging methods and related sediment management approaches to remove accumulated material while protecting the surrounding environment. That kind of work depends on control, precision, and minimizing disruption.
 
 ## The cleanup is bigger than the bottom
 
