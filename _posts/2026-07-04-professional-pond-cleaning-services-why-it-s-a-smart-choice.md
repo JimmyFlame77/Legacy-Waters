@@ -58,7 +58,7 @@ This assessment stage helps us determine whether you’re dealing primarily with
 
 For medium to large ponds across Maryland and the broader Mid‑Atlantic, sediment removal is often at the core of our work. Over time, runoff and organic debris build up and form thick layers that quietly reduce depth and storage capacity.
 
-We use hydraulic dredging and other specialized [sediment management](https://legacywatersenv.com/sediment-management-strategies-to-restore-depth-and-clarity/) methods to:
+We use [hydraulic dredging](https://legacywatersenv.com/pond-dredging-services-101-when-you-need-them-and-why/) and other specialized [sediment management](https://legacywatersenv.com/sediment-management-strategies-to-restore-depth-and-clarity/) methods to:
 
 By targeting the material causing the imbalance, we address the source of the problem rather than just the visible symptoms on the surface.blog.
 
@@ -166,7 +166,7 @@ Sediment buildup reduces depth and storage capacity, making stormwater ponds les
 
 ### Is professional pond cleaning only for decorative ponds?
 
-No. We work on stormwater ponds, commercial ponds, lakes, and other water bodies where sediment, vegetation, and debris disrupt function and health. Whether the pond is purely functional, primarily aesthetic, or a mix of both, the principles are the same: excess material must be removed, circulation must be restored, and the system must be able to support stable water conditions over time.blog.
+No. We work on stormwater ponds, commercial ponds, lakes, and other water bodies where sediment, vegetation, and debris disrupt function and health. Whether the pond is purely functional, primarily aesthetic, or a mix of both, the principles are the same: excess material must be removed, circulation must be restored, and the system must be able to support stable water conditions over time.
 
 ### How do you decide which methods to use on a specific pond?
 
