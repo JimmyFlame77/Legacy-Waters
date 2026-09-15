@@ -34,8 +34,6 @@ Sediment accumulation begins upstream of the shoreline. Eroding slopes, poorly s
 
 Above the waterline, the symptoms often appear as:
 
-  
-
 Below the surface, the changes are more subtle but just as important. Depth contours shift, cold-water refuges disappear, and the sediment layer becomes a reservoir of nutrients and organic decay. Fish and beneficial invertebrates lose habitat, while invasive plants and algae find everything they need.
 
 Meaningful sediment management strategies starts by acknowledging this whole picture: sediment is not simply “down there,” it is part of a larger watershed story that can either be neglected or carefully guided.
@@ -43,8 +41,6 @@ Meaningful sediment management strategies starts by acknowledging this whole pic
 ## Our Philosophy: Control, Route, Remove
 
 When we look at a pond or lake, we do not see just water and shoreline. We see a system where sediment is constantly entering, settling, and moving. To keep that system healthy, we focus on three fundamental actions: control, route, and remove.
-
-  
 
 These pillars guide how we design sediment management strategies for each project. The right balance between them depends on your waterbody’s purpose, age, surrounding land use, and existing conditions.
 
@@ -54,17 +50,13 @@ The most powerful sediment management strategies often start on land, before a s
 
 Control measures can include:
 
-  
-
 Source‑control alone will not remove existing sediment, but it slows the rate of accumulation and protects your investment in any dredging or in‑water work. By pairing on‑land interventions with targeted in‑water strategies, we create a more stable trajectory for your pond or lake, not just a temporary fix.
 
 ## Routing Sediment So Your Waterbody Can Breathe
 
-Even with excellent source control, sediment will still arrive. The next task is to route it in ways that minimize harm. This is where sediment management strategies begin to feel more architectural—reshaping how and where sediment settles so your critical zones stay clear.
+Even with excellent source control, sediment will still arrive. The next task is to [route the sediment](https://legacywatersenv.com/sediment-routing-a-complete-guide-to-strategy-and-methods/) in ways that minimize harm. This is where sediment management strategies begin to feel more architectural—reshaping how and where sediment settles so your critical zones stay clear.
 
 In practice, routing might involve:
-
-  
 
 Routing is about accepting what cannot be completely prevented and shaping it into something manageable. Instead of allowing sediment to quietly, randomly fill your basin, we help guide it to places where it can be monitored, measured, and eventually removed with less disruption and lower cost.
 
@@ -116,8 +108,6 @@ The benefits of professional sediment removal go far beyond the numbers on a dep
 
 You see it in:
 
-  
-
 You also feel it in the way people use and talk about the water. Residents who once avoided the shoreline begin to return. Anglers discover more consistent conditions. Property owners experience renewed confidence that their investment is protected, not quietly disappearing beneath layers of silt.
 
 For fish and wildlife, the transformation is equally tangible. Restored depth, improved oxygen dynamics, and a better balance of vegetation create more resilient habitat. Healthy water supports healthy life, and sediment removal is often the key that allows that relationship to flourish again.
@@ -154,8 +144,6 @@ Sediment does not arrive on a schedule, but there are patterns worth paying atte
 
 You may want to revisit your sediment management strategies sooner if you notice:
 
-  
-
 Early evaluation gives you options. It allows for strategic planning, budget forecasting, and coordinated action rather than crisis‑driven decisions. In many cases, timely interventions can significantly reduce the scale and cost of future dredging efforts.
 
 ## A Practical Example: Breaking The Sediment Cycle
@@ -163,8 +151,6 @@ Early evaluation gives you options. It allows for strategic planning, budget for
 Consider a community stormwater pond that has quietly filled in over two decades. Sediment deltas have formed at each inlet, the shoreline has crept inward, and residents complain of algae blooms each summer. After a thorough assessment, we discover that upstream construction and lawn maintenance practices have significantly increased sediment and nutrient loads.
 
 A holistic sediment management strategy for this pond might include:
-
-  
 
 Within a season, water clarity improves, storage capacity is restored, and the community begins to experience the pond as an asset again rather than a problem. Over the following years, the combination of upstream control and periodic monitoring helps slow new sediment accumulation, protecting the investment made in dredging and restoration.
 
