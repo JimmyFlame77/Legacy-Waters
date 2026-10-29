@@ -8,7 +8,6 @@ image: "/images/pond-winterization-alaxqo.webp"
 excerpt: "Pond winterization starts with a question that a clean shoreline cannot answer: is the rest of the pond ready for freezing weather?"
 description: "Prepare your pond for winter with helpful guidance on pond winterization, fall cleanup, aeration, equipment care, monitoring, and ice safety."
 ---
-
 Pond winterization starts with a question that a clean shoreline cannot answer: is the rest of the pond ready for freezing weather?
 
 The leaves may be gone. The worst vegetation may be removed. Open water may stretch across areas that looked crowded a few weeks ago. Those improvements matter, but they do not tell you whether an aeration system needs seasonal adjustments, whether exposed plumbing can withstand a freeze, or who will notice if equipment stops working in January.
@@ -27,12 +26,7 @@ That distinction matters. A decorative fountain may need removal, while a winter
 
 Pond winterization should leave the property manager with clear answers to several questions:
 
--   What material still needs removal?
--   Where has sediment reduced usable depth or affected drainage?
--   Which equipment will operate through winter?
--   Which components need draining, removal, or protected storage?
--   Where will aeration create open water or weaken surrounding ice?
--   Who will inspect the pond, and what should trigger a response?
+  
 
 We also want a record of unresolved concerns. Winter preparation does not mean forcing every restoration project into the remaining weeks of fall. It means recognizing the difference between a pond that is ready for seasonal operation and one that simply looks tidier.
 
@@ -148,7 +142,7 @@ We do not assign a universal winter diffuser depth. A suitable location in one p
 
 ### Do Not Treat a Fountain as Interchangeable With Diffused Aeration
 
-A fountain and a bottom-diffused aerator do not perform identical work. A fountain’s spray pattern also exposes equipment and moving water to freezing conditions differently.
+A [fountain and a bottom-diffused aerator](https://legacywatersenv.com/pond-aerator-vs-fountain-which-is-right-for-your-pond/) do not perform identical work. A fountain’s spray pattern also exposes equipment and moving water to freezing conditions differently.
 
 Some fountain systems require removal or other winter protection. Other equipment may have specific provisions for cold-weather use. Neither appearance nor summer performance establishes winter suitability.
 
@@ -174,12 +168,7 @@ Not every pond has every component. Not every component needs the same winter tr
 
 For pond winterization, create a short equipment inventory that includes:
 
--   Manufacturer and model.
--   Location and function.
--   Current operating condition.
--   Winter operating or storage instructions.
--   Required service tasks.
--   Isolation points and responsible personnel.
+  
 
 Keep the manuals with that record. If a label is unreadable or the model remains uncertain, resolve the uncertainty before deciding how to protect the equipment.
 
@@ -257,12 +246,7 @@ Where fish protection or previous winter problems warrant water-quality monitori
 
 A checklist is more useful when it includes action triggers. These may include:
 
--   A winter aerator stops operating.
--   A cabinet floods or electrical protection repeatedly trips.
--   Water levels change unexpectedly.
--   An inlet or outlet develops a significant obstruction.
--   Fish show unusual behavior where they remain visible.
--   Ice or open water begins attracting unsafe access.
+  
 
 Assign each concern to a responsible person. Include after-hours contacts where interruptions could have serious consequences.
 
