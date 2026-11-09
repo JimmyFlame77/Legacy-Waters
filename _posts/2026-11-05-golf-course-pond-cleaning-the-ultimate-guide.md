@@ -34,8 +34,6 @@ Others demand a quicker response. Strong odors, blocked drainage structures, and
 
 We consider pond cleaning on courses when several conditions persist:
 
-  
-
 These observations identify concerns, not definitive causes. Cloudy water after heavy rain requires a different investigation from green water during a prolonged dry period. Treating both the same way risks doing unnecessary work while overlooking the source.
 
 ## Start With the Pond’s Actual Condition
@@ -59,8 +57,6 @@ The phrase golf course pond cleaning covers several services, but not every pond
 A project might involve floating debris removal and selective harvesting. Another might require hydraulic dredging, sediment dewatering, shoreline work, and an aeration review.
 
 We separate the work into clear categories:
-
-  
 
 The relationship between these tasks matters. [Professional pond cleaning services](https://legacywatersenv.com/professional-pond-cleaning-services-why-it-s-a-smart-choice/) should match the material and conditions present, rather than apply one standard treatment everywhere.
 
@@ -272,7 +268,7 @@ Not necessarily. We can often remove vegetation, debris, and sediment with water
 
 ### Can pond cleaning eliminate algae permanently from a course's ponds?
 
-No. We can remove accumulated material and excessive growth, but future algae depend on nutrients, sunlight, temperature, and other conditions. Removing nutrient-containing biomass and addressing contributing sediment can form part of management. We also assess incoming runoff and circulation. Aeration may support healthier conditions, but neither cleaning nor aeration guarantees that algae will never return.
+No. We can remove accumulated material and excessive growth, but future algae depend on nutrients, sunlight, temperature, and other conditions. Removing nutrient-containing biomass and addressing contributing sediment can form part of [management process](https://legacywatersenv.com/golf-course-pond-management-nutrient-mitigation-turf-runoff/). We also assess incoming runoff and circulation. Aeration may support healthier conditions, but neither cleaning nor aeration guarantees that algae will never return.
 
 ### How much does golf course pond cleaning cost?
 
