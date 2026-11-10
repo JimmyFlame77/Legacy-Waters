@@ -8,7 +8,6 @@ image: "/images/golf-course-pond-management-ulv4g5.webp"
 excerpt: "Golf course pond management begins well beyond the shoreline, where a summer downpour can carry fertilizer, soil, and grass clippings off carefully maintained turf and into the water. By morning, the fairways may look untouched. The pond has absorbed the consequences."
 description: "Improve golf course pond management with nutrient runoff control, native buffers, aeration, weed harvesting, and low-impact sediment removal."
 ---
-
 Golf course pond management begins well beyond the shoreline, where a summer downpour can carry fertilizer, soil, and grass clippings off carefully maintained turf and into the water.
 
 By morning, the fairways may look untouched. The pond has absorbed the consequences.
@@ -204,6 +203,8 @@ Traditional excavation can require drawdown, shoreline access, haul routes, and 
 Hydraulic dredging offers another option. A dredge collects submerged deposits as a water-sediment slurry and pumps that mixture through a pipeline to a prepared dewatering area.
 
 In golf course pond management, this can reduce heavy traffic along fairways and avoid draining the entire basin in many situations. Flexible pipeline routing also provides options around maintained features.
+
+[Planning commercial golf course lake restoration](https://legacywatersenv.com/commercial-golf-course-lake-restoration-without-sacrificing-turf-or-daily-play/) around tee times, irrigation demands, and protected access routes helps keep sediment removal from becoming a course-wide interruption.
 
 It does not mean zero disruption. Pipeline crossings, staging areas, electrical supply, dewatering space, and golfer safety still require coordination.
 
